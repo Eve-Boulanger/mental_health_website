@@ -6,7 +6,6 @@
     background-color: #B8E6AE;
     display: inline-block;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
     color: #76C893;
     padding-bottom: 10px;
   }
@@ -17,7 +16,6 @@
   }
   .practices-container p{
     color: black;
-    font-size: calc(8px + 2vmin);
   }
   
   .body{
@@ -39,21 +37,18 @@
     background-color: #71BCBE;
     display: inline-block;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
     color: #168AAD;
     padding-bottom: 10px;
   }
   
   .meditation-container p{
     color: black;
-    font-size: calc(8px + 2vmin)
   }
   
   .quizzes-container {
     background-color: #168AAD;
     display: inline-block;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
     color:black;
     padding-bottom: 10px;
   }
@@ -65,9 +60,20 @@
     border: 1px solid black;
     color: black;
     background-color: white;
+    padding: 10px;
   }
   
   .quizzes-card p {
     color: #6CB5CB;
     line-height: 10px;
+  }
+
+  .quizzes-card-header {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+  .quiz-title{
+    display:inline;
   }

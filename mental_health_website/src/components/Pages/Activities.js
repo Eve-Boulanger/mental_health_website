@@ -1,4 +1,7 @@
 import React from "react";
+import {AiOutlineArrowLeft} from "react-icons/ai";
+import {AiOutlineArrowRight} from "react-icons/ai";
+import {IconContext} from "react-icons"
 import "./Activities.css";
 
 export const Activities = () => {
@@ -67,8 +70,23 @@ export const Activities = () => {
         </div>
         <div className="body">
           <div className="quizzes-card">
-            <p>Quiz #1</p>
-            <p>[Description]</p>
+            <div className="quizzes-card-header">
+              <IconContext.Provider value={{ style: {fontSize: '30px', color: '#6CB5CB'}}}>
+                <div>
+                  <AiOutlineArrowLeft />
+                </div>
+              </IconContext.Provider>
+              <div className="quiz-title">
+                <p>Quiz #1</p>
+                <p>[Description]</p>
+              </div>
+              <IconContext.Provider value={{ style: {fontSize: '30px', color: '#6CB5CB'}}}>
+                <div>
+                  <AiOutlineArrowRight/>
+                </div>
+              </IconContext.Provider>
+            </div>
+
             <embed type="text/html" src="https://stackoverflow.com/questions/59548917/how-do-i-embed-an-external-website-into-my-website" width="500" height="350"/>
           </div>
         </div>
