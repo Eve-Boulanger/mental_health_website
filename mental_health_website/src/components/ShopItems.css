@@ -1,0 +1,26 @@
+.grid {
+    min-height: 65%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+ }
+  
+.grid > div {
+    /* flex-basis: calc(50% - 100px);*/
+    flex-basis: auto;
+}
+
+.box {
+    margin: 20px;
+    position: relative;
+    left: 50px;
+    top: 250px;
+}
+
+.button {
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
