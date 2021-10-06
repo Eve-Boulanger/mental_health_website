@@ -24,13 +24,13 @@
   }
   
   .card{
-    width: 20vw;
-    height: 20vh;
+    width: 30vw;
+    height: 30vh;
     border-radius: 10px;
     border: 1px solid black;
     color: black;
     background-color: white;
-    margin: 5px;
+    margin: 10px;
   }
   
   .meditation-container {
@@ -44,6 +44,10 @@
   .meditation-container p{
     color: black;
   }
+
+  .meditation-container iframe{
+    padding-top: 2vh;
+  }
   
   .quizzes-container {
     background-color: #168AAD;
@@ -51,6 +55,7 @@
     justify-content: center;
     color:black;
     padding-bottom: 10px;
+    width: 100%;
   }
   
   .quizzes-card{
@@ -77,3 +82,5 @@
   .quiz-title{
     display:inline;
   }
+
+  

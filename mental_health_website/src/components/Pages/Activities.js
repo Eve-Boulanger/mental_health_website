@@ -41,24 +41,21 @@ export const Activities = () => {
             and emotionally calm and stable state. Some guided 
             meditation videos to help you get started with this 
             practice can be found below. Each video has a different 
-            length to allow you to choose the video that would be the 
-            most ideal for you in your everyday life. </p>
+            focus, depending on your need, but all are 10 minutes
+            long so it can be easily integrated into your daily routine!</p>
         </div>
           
         <div className="body">
           <div className="card">
-            <p>Activity #1:</p>
-            <p>[Description]</p>
+          <iframe width="250" height="150" src="https://www.youtube.com/embed/ZToicYcHIOU" title="YouTube video player" frameborder="0"></iframe>
           </div>
 
           <div className="card">
-            <p>Activity #2:</p>
-            <p>[Description]</p>
+          <iframe width="250" height="150" src="https://www.youtube.com/embed/sG7DBA-mgFY" title="YouTube video player" frameborder="0" ></iframe>
           </div>
 
           <div className="card">
-            <p>Activity #3:</p>
-            <p>[Description]</p>
+          <iframe width="250" height="150" src="https://www.youtube.com/embed/QHkXvPq2pQE" title="YouTube video player" frameborder="0"></iframe>
           </div>
         </div>
       </div>
@@ -87,7 +84,7 @@ export const Activities = () => {
               </IconContext.Provider>
             </div>
 
-            <embed type="text/html" src="https://stackoverflow.com/questions/59548917/how-do-i-embed-an-external-website-into-my-website" width="500" height="350"/>
+            <iframe src="https://support.google.com/youtube/answer/72689?visit_id=637686468766209729-1400570249&rd=1" title="Embedded quiz" width="500" height="350"></iframe>
           </div>
         </div>
       </div>
