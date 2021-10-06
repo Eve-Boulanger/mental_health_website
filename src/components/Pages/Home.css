@@ -1,0 +1,180 @@
+.blueGrey{
+    color: rgba(0, 7, 45, 0.65);
+}
+
+.darkBlue{
+    color: rgba(0, 7, 45, 1);
+}
+
+.container{
+    background: rgba(108, 181, 203, 1);
+    position: absolute;
+    font-family: 'source serif pro';
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 30px;
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    display: inline;
+    height: 350px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.9em;
+    z-index: -1;
+}
+
+.headerImg img {
+    position: relative;
+    width: 300px;
+    left: 850px;
+    top: 50px;
+}
+
+.aboutContainer h2 {
+    position: relative;
+    margin: 0px;
+    width: 20px;
+    box-sizing: border-box;
+    height: 20px;
+    left: 200px;
+    top: 170px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+
+    color: #00072D;
+}
+
+.aboutContainer p {
+    position: relative;
+    padding-left: 200px;
+    width: 70%;
+    top: 180px;
+    font-family: 'IBM Plex Sans';
+    font-size: 18px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.donateButton{
+    position: relative;
+    left: 41%;
+    top: 210px;
+}
+
+.donateButton button {
+    position: relative;
+    width: 250px;
+    height: 50px;
+    background: #168AAD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 0px;
+    font-family: 'IBM Plex Sans';
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(15, 31, 44, 1);
+
+}
+.donateButton img {
+    position: relative;
+    width: 25px;
+    top: 5px;
+}
+.middleAndBackText {
+    position: relative; 
+    top: 250px;
+    box-sizing: border-box;
+    left: 0px;
+    right: 0px;
+    margin: 0px;
+    height: 400px;
+    background: #9CD7B1;
+    text-align: center;
+    z-index: -1;
+}
+.middleAndBackText h2 {
+    padding-top: 80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+}
+.middleAndBackText p{
+    padding-top: 2px;
+    width: 15%;
+    padding-left: 42.5%;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+.readMoreMiddle button {
+    padding-top: 72px;
+    border: none;
+    background-color: #9CD7B1;
+    text-decoration: underline;
+}
+.leftText {
+    position: absolute; 
+    top: 961px;
+    left: 125px;
+    width: 25%;
+    height: 282px;
+    font-family: 'Montserrat';
+    background: #B8E6AE;
+    text-align: center;
+    border-radius: 10px;
+}
+.leftText h2 {
+    font-size: 25px;
+}
+.leftText p{
+    padding-top: 2px;
+    padding-left: 58px;
+    width: 200px;
+    font-family: 'IBM Plex Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+}
+.readMoreLeft button {
+    padding-top: 10px;
+    border: none;
+    background-color: #B8E6AE;
+    text-decoration: underline;
+}
+.rightText {
+    position: absolute; 
+    top: 961px;
+    right: 125px;
+    width: 25%;
+    height: 282px;
+    font-family: 'Montserrat';
+    background: #B8E6AE;
+    text-align: center;
+    border-radius: 10px;
+}
+.rightText h2 {
+    font-size: 25px;
+}
+.rightText p{
+    padding-top: 2px;
+    padding-left: 58px;
+    width: 200px;
+    font-family: 'IBM Plex Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+}
+.readMoreRight button {
+    padding-top: 10px;
+    border: none;
+    background-color: #B8E6AE;
+    text-decoration: underline;
+}
