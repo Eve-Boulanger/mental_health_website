@@ -11,12 +11,10 @@ const Donation = () => {
         setIsSubmitted(true);
     }
     return (
-        <>
         <div className="form-container">
             {!isSubmitted ? <DonationForm submitDonation=
             {submitDonation} /> : <DonationSuccess />}
         </div>
-        </>
     )
 }
 

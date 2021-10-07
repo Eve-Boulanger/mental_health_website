@@ -1,7 +1,6 @@
-import { useState, /*useEffect*/ } from "react";
-//import validateDonationForm from "./validateDonationForm";
+import { useState, useEffect} from "react";
 
-const useDonationForm = (/*callback, validateDonationForm*/) => {
+const useDonationForm = (callback) => {
     const [values, setValues] = useState({
         firstName: "",
         lastName: "",
@@ -18,8 +17,8 @@ const useDonationForm = (/*callback, validateDonationForm*/) => {
         province: "",
         postalCode: "",
     });
-    // const [errors, setErrors] = useState({});
-    const [/*isSubmitting*/, setIsSubmitting] = useState(false);
+
+    const [isSubmitting, setIsSubmitting] = useState(false);
 
 
     const handleChange = e => {
@@ -33,20 +32,17 @@ const useDonationForm = (/*callback, validateDonationForm*/) => {
     const handleSubmit = e => {
         e.preventDefault();
 
-        //setErrors(validateDonationForm(values));
         setIsSubmitting(true);
     }
-/*
-    useEffect(() => {
-        if (Object.keys(errors).length === 0 &&
-        isSubmitting) {
-            callback();
+
+    useEffect(
+        () => {
+            if(isSubmitting) {
+                callback();
+            }
         }
-    },
-    [errors]
-);
-*/
-    return {handleChange, values, handleSubmit, /*errors*/};
+    )
+    return {handleChange, values, handleSubmit};
 };
 
 export default useDonationForm;

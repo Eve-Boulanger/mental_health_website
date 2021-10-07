@@ -1,45 +1,54 @@
 import React from "react";
 import useDonationForm from "./useDonationForm";
-//import validateDonationForm from "./validateDonationForm";
+
 import "./Donation.css";
 
 const DonationForm = ({submitDonation}) => {
-    const {handleChange, values, handleSubmit, /*errors*/} = useDonationForm(submitDonation, /*validateDonationForm*/);
+    const {handleChange, values, handleSubmit} = useDonationForm(submitDonation);
 
     return (
         <div>
             <form className="form" onSubmit={handleSubmit}>
-                <h5>1. Your Information</h5>
-                <div className="form-inputs">
-                    <input
-                        type="text"
-                        name="firstName"
-                        className="form-input"
-                        placeholder="First Name"
-                        value={values.firstName}
-                        onChange={handleChange}
-                        required
-                    />
-                    {/*errors.firstName && <p>{errors.firstName}</p>*/}
-                </div>
-                <div className="form-inputs">
-                    <input
-                        type="text"
-                        name="lastName"
-                        className="form-input"
-                        placeholder="Last Name"
-                        value={values.lastName}
-                        onChange={handleChange}
-                        required
-                    />
+                <h5>1. Donor Information</h5>
+                <div>
+                    <div className="form-inputs aligned-inputs left-input">
+                        <label htmlFor="firstName"
+                        className="form-label">
+                            Donor Full Name *
+                        </label>
+                        <input
+                            type="text"
+                            name="firstName"
+                            className="form-input"
+                            placeholder="First Name"
+                            value={values.firstName}
+                            onChange={handleChange}
+                            required
+                        />
+                    </div>
+                    <div className="form-inputs aligned-inputs">
+                        <input
+                            type="text"
+                            name="lastName"
+                            className="form-input"
+                            placeholder="Last Name"
+                            value={values.lastName}
+                            onChange={handleChange}
+                            required
+                        />
+                    </div>
                 </div>
                 <div>
                     <div className="form-inputs aligned-inputs left-input">
+                        <label htmlFor="email"
+                        className="form-label">
+                            Email Address *
+                        </label>
                         <input
                             type="email"
                             name="email"
                             className="form-input"
-                            placeholder="Email Address"
+                            placeholder="ex. myname@example.com"
                             value={values.email}
                             onChange={handleChange}
                             required
@@ -47,54 +56,31 @@ const DonationForm = ({submitDonation}) => {
                     </div>
                     
                     <div className="form-inputs aligned-inputs">
+                        <label htmlFor="phoneNumber"
+                        className="form-label">
+                            Phone Number
+                        </label>
                         <input
                             type="tel"
                             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                             name="phoneNumber"
                             className="form-input"
-                            placeholder="Phone Number: XXX-XXX-XXXX"
+                            placeholder="XXX-XXX-XXXX"
                             value={values.phoneNumber}
                             onChange={handleChange}
-                            required
                         />
                     </div>
                 </div>
-
-                <h5>2. Payment Information</h5>
+                <h5>2. Donation Amount</h5>
                 <div className="form-inputs">
-                <label htmlFor="donationAmount"
+                    <label htmlFor="donationAmount"
                     className="form-label">
-                        Please select your donation amount ($CAD): 
+                        Please select your donation amount ($CAD) *
                     </label>
-                    {/* Switch to radio inputs for set donation amounts (?)
-                    <input type="radio" id="amountOption1" name="amountOption"
-                        value={values.AmountOption} onChange={handleChange} required />
-                    <label for="amountOption1"> $5 CAD </label>
-
-                    <input type="radio" id="amountOption2" name="amountOption"
-                        value={values.AmountOption} onChange={handleChange} required />
-                    <label for="amountOption2"> $15 CAD </label>
-
-                    <input type="radio" id="amountOption3" name="amountOption"
-                        value={values.AmountOption} onChange={handleChange} required />
-                    <label for="amountOption3"> $25 CAD </label>
-
-                    <input type="radio" id="amountOption4" name="amountOption"
-                        value={values.AmountOption} onChange={handleChange} required />
-                    <label for="amountOption4"> $50 CAD </label>
-
-                    <input type="radio" id="amountOption5" name="amountOption" 
-                        value={values.AmountOption} onChange={handleChange} required />
-                    <label for="amountOption5"> $100 CAD </label>
-
-                    <input type="radio" id="amountOption6" name="amountOption" 
-                        value={values.AmountOption} onChange={handleChange} required />
-                    <label for="amountOption6"> Other </label>
-                    */}
                     <input
                         type="number"
                         name="donationAmount"
-                        min="0"
+                        min="5"
                         max="200"
                         step="5"
                         className="form-input"
@@ -104,19 +90,28 @@ const DonationForm = ({submitDonation}) => {
                         required
                     />
                 </div>
+                <h5>3. Payment Information</h5>
                 <div className="form-inputs">
+                    <label htmlFor="cardHolder"
+                    className="form-label">
+                        Cardholder Name *
+                    </label>
                     <input
                         type="text"
                         pattern="([a-zA-Z]+\s){1,}([a-zA-Z]+)"
                         name="cardHolder"
                         className="form-input"
-                        placeholder="Cardholder Name"
+                        placeholder="Valid Full Name"
                         value={values.cardHolder}
                         onChange={handleChange}
                         required
                     />
                 </div>
                 <div className="form-inputs">
+                    <label htmlFor="cardNumber"
+                    className="form-label">
+                        Card Number *
+                    </label>
                     <input
                         type="tel"
                         inputMode="numeric"
@@ -124,43 +119,49 @@ const DonationForm = ({submitDonation}) => {
                         maxLength="19"
                         name="cardNumber"
                         className="form-input"
-                        placeholder="Card Number"
+                        placeholder="XXXX XXXX XXXX XXXX"
                         value={values.cardNumber}
                         onChange={handleChange}
                         required
                     />
                 </div>
-                <div className="form-inputs">
-                    <label htmlFor="expData"
-                    className="form-label">
-                        Please select your card expiry date: 
-                    </label>
-                    <input
-                        type="date"
-                        name="expDate"
-                        className="form-input"
-                        placeholder="Expiration Date"
-                        value={values.expDate}
-                        onChange={handleChange}
-                        required
-                    />
-                </div>
-                <div className="form-inputs">
-                    <input
-                        type="tel"
-                        inputMode="numeric"
-                        pattern="[0-9\s]{3}"
-                        maxLength="3"
-                        name="cvv"
-                        className="form-input"
-                        placeholder="CVV"
-                        value={values.cvv}
-                        onChange={handleChange}
-                        required
-                    />
+                <div>
+                    <div className="form-inputs aligned-inputs left-input">
+                        <label htmlFor="expData"
+                        className="form-label">
+                            Card Expiration Date *
+                        </label>
+                        <input
+                            type="date"
+                            name="expDate"
+                            className="form-input"
+                            placeholder="Expiration Date *"
+                            value={values.expDate}
+                            onChange={handleChange}
+                            required
+                        />
+                    </div>
+                    <div className="form-inputs aligned-inputs">
+                        <label htmlFor="cvv"
+                        className="form-label">
+                            Card Verification Value (CVV) *
+                        </label>
+                        <input
+                            type="tel"
+                            inputMode="numeric"
+                            pattern="[0-9\s]{3}"
+                            maxLength="3"
+                            name="cvv"
+                            className="form-input"
+                            placeholder="XXX"
+                            value={values.cvv}
+                            onChange={handleChange}
+                            required
+                        />
+                    </div>
                 </div>
 
-                <h5>3. Billing Information</h5>
+                <h5>4. Billing Information</h5>
                 <div className="form-inputs">
                     <input
                         type="text"
