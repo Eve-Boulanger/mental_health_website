@@ -23,7 +23,7 @@ export const Home = () => {
       </div>
       <div class = "donateButton">
         <Link to="/support"><button>
-            DONATE NOW <img src={donate}/>
+            DONATE NOW <img src={donate} alt="donate"/>
           </button>
         </Link>
       </div>

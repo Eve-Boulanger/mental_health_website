@@ -8,12 +8,11 @@ export default class Infographic extends React.Component {
 
   handleShowDialog = () => {
     this.setState({ isOpen: !this.state.isOpen });
-    console.log("cliked");
   };
 
   render() {
     return (
-      <div className="container">
+      <div className="container-info">
         <img
           className="stats"
           src={this.props.img}
@@ -32,7 +31,6 @@ export default class Infographic extends React.Component {
             onClick={this.handleShowDialog}
           >
             <img
-              className={this.props.expand}
               src={this.props.img}
               onClick={this.handleShowDialog}
               alt="no"

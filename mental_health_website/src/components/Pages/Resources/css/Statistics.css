@@ -17,6 +17,7 @@
     margin: 0 auto;
 }
 
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -52,7 +53,7 @@
     .grid-container {
         display: flex;
         flex-wrap: wrap;
-      flex-direction: column;
+        flex-direction: column;
     }
   }
 

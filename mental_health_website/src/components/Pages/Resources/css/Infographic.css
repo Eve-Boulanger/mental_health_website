@@ -44,12 +44,12 @@
     z-index: 1;
   }
 
-  .container {
+  .container-info {
     position: relative;
     width: 100%;
 }
 
-.container .btn {
+.container-info .btn {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -65,7 +65,7 @@
     text-align: center;
   }
   
-  .container .btn:hover {
+  .container-info .btn:hover {
     background-color: black;
   }
   
@@ -121,3 +121,4 @@
         height: 180vh;
       }
   }
+  
