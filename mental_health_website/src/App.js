@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Home } from "./components/Pages/Home";
 import { Activities } from "./components/Pages/Activities";
-import { Resources } from "./components/Pages/Resources";
+import { Resources } from "./components/Pages/Resources/Resources";
 import { Support } from "./components/Pages/Support";
 
 function App() {

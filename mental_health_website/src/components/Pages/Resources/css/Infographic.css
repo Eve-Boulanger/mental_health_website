@@ -1,0 +1,123 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .dialogLeft {
+    position: static;
+    left: -70%;
+    top: 10%;
+  }
+
+  .dialogCenter {
+    box-shadow: 0 8px 6px -6px black;
+    position: static;
+    left: 66%;
+    top: 10%;
+  }
+
+  .dialogRight {
+    box-shadow: 0 8px 6px -6px black;
+    position: static;
+    left: 70%;
+    top: 10%;
+  }
+  
+  .left {
+    width: 50vw;
+    height: 180vh;
+    position: absolute;
+    z-index: 1;
+  }
+  .center {
+    width: 50vw;
+    height: 180vh;
+    position: absolute;
+    z-index: 1;
+    left: -36.5em;
+  }
+  .right {
+    right: 1em;
+    width: 50vw;
+    height: 180vh;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+}
+
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+  
+  @media (max-width: 1460px) {
+    .dialogCenter {
+        left: 22%;
+    }
+    .center {
+        left: -20em;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .dialogLeft {
+        left: -30%;
+      }
+    .dialogCenter {
+        left: 27%;
+    }
+    .dialogRight {
+        left: 28%;
+    }
+    .center {
+        left: -20em;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .dialog {
+        left: -50%;
+      }
+      .image {
+        width: 70vw;
+        height: 180vh;
+      }
+    .dialogCenter {
+        left: 27%;
+    }
+    .dialogRight {
+        left: 40%;
+    }
+    .center {
+        left: -10em;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .dialog {
+        left: -50%;
+      }
+      .image {
+        width: 70vw;
+        height: 180vh;
+      }
+  }
