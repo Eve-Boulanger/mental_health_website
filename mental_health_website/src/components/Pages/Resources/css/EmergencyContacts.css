@@ -1,5 +1,6 @@
 .wrapper {
   background-color: #A6E1FA;
+  height: 44em;
 }
 
 .row {
@@ -14,7 +15,28 @@
 }
 
 .contacts {
-    padding-left: 9em;
+    padding-left: 7em;
+}
+
+.title-emg {
+  font-size: 47px;
+  font-family: 'Source Serif Pro';
+  background: linear-gradient(to right, #373b44, #4286f4); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+.call {
+  font-family: 'IBM Plex Sans';
+  font-size: 28px;
+}
+
+.more-contacts {
+  font-family: 'IBM Plex Sans';
+  font-size: 25px;
 }
 
 .parent {
@@ -24,17 +46,17 @@
     padding-right: 4em;
 }
 
-.img1 {
+.img1-emergency {
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
-    max-width: 400px;
+    max-width: 530px;
     height: auto;
     padding-left: 30%;
   }
 
-.img2 {
+.img2-emergency {
     position: absolute;
     top: 80%;
     left: 20%;
@@ -44,16 +66,20 @@
   }
 
   @media (max-width: 1150px) {
-    .img1 {
+    .img1-emergency {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+    }
+
+    .img2-emergency {
       width: 100%;
       max-width: 300px;
       height: auto;
     }
 
-    .img2 {
-      width: 100%;
-      max-width: 300px;
-      height: auto;
+    .wrapper {
+      height: 61em;
     }
   }
 
@@ -61,7 +87,7 @@
     .contacts {
       padding-left: 1.5em;
     }
-    .img1 {
+    .img1-emergency {
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -71,7 +97,7 @@
       padding-left: 10%;
     }
 
-    .img2 {
+    .img2-emergency {
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -83,7 +109,7 @@
       flex-direction: column;
     }
     .wrapper {
-      height: 42em;
+      height: 57em;
     }
     .column {
       padding-top: 0em;
@@ -96,5 +122,9 @@
   @media (max-width: 520px) {
     .contacts {
       padding-left: 1em;
+    }
+
+    .wrapper {
+      height: 64em;
     }
   }

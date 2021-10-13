@@ -34,6 +34,7 @@ export default class Infographic extends React.Component {
               src={this.props.img}
               onClick={this.handleShowDialog}
               alt="no"
+              className={this.props.expand}
             />
           </dialog>
         )}

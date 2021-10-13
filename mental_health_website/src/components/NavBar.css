@@ -22,6 +22,7 @@
     color: white;
     align-items: center;
     margin-left: 20px;
+    margin-bottom: 12px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -107,7 +108,7 @@
     .nav-icon {
       display: block;
       position: absolute;
-      top: -10px;
+      top: -12px;
       right: 0;
       transform: translate(-100%, 60%);
       font-size: 1.8rem;

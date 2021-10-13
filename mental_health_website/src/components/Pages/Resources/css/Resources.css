@@ -2,11 +2,3 @@
     display: 'flex';
     flex-direction: 'row';
 }
-
-.thirdRow {
-    background-color: #0A2472;
-}
-
-.fourthRow {
-    background-color: #0E6BA8;
-}
