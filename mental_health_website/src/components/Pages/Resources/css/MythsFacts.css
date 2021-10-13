@@ -1,3 +1,7 @@
+.thirdRow {
+    background-color: #0A2472;
+}
+
 .grid-container-mf {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -43,11 +47,18 @@
         flex-wrap: wrap;
         flex-direction: column;
     }
-  }
 
-  @media (max-width: 500px) {
-    .stats {
-        width: 14em;
-        height: 20em;
+    
+    .title {
+        width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container-mf {
+        width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
     }
   }
+

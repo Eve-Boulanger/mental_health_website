@@ -3,6 +3,7 @@ import './css/Resources.css'
 import EmergencyContacts from './EmergencyContacts'
 import Statistics from './Statistics'
 import MythsFacts from "./MythsFacts";
+import  Articles from './Articles'
 
 
 export const Resources = () => {
@@ -11,7 +12,7 @@ export const Resources = () => {
       <EmergencyContacts />
       <Statistics />
       <MythsFacts />
-      <div className="fourthRow">trgrvdftg</div>
+      <Articles />
   </div>
   );
 };

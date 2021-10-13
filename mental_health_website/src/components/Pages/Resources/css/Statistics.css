@@ -8,14 +8,26 @@
 }
 
 .header h1{
-    padding-top: 20px;
+    padding-top: 4vh;
+    font-size: 47px;
+    font-family: 'Source Serif Pro';
+    background-image: linear-gradient(to right top, #ffffff, #ebe9fb, #d5d3f7, #bdbef4, #a3aaf0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
 
 .header p{
     text-align: center;
     max-width: 85em;
     margin: 0 auto;
+    color: white;
+    font-size: 22px;
+    font-family: 'IBM Plex Sans';
 }
+
 
 .grid-container {
     display: grid;
@@ -27,6 +39,12 @@
     padding: 20px;
     font-size: 20px;
     text-align: center;
+}
+
+.grid-item p {
+  color: white;
+  font-size: 22px;
+  font-family: 'IBM Plex Sans';
 }
 
 .stats {
@@ -52,7 +70,7 @@
     .grid-container {
         display: flex;
         flex-wrap: wrap;
-      flex-direction: column;
+        flex-direction: column;
     }
   }
 

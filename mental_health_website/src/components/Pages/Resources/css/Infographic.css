@@ -23,20 +23,20 @@
     top: 10%;
   }
   
-  .left {
+  .left-info {
     width: 50vw;
     height: 180vh;
     position: absolute;
     z-index: 1;
   }
-  .center {
+  .center-info {
     width: 50vw;
     height: 180vh;
     position: absolute;
     z-index: 1;
     left: -36.5em;
   }
-  .right {
+  .right-info {
     right: 1em;
     width: 50vw;
     height: 180vh;
@@ -44,12 +44,12 @@
     z-index: 1;
   }
 
-  .container {
+  .container-info {
     position: relative;
     width: 100%;
 }
 
-.container .btn {
+.container-info .btn {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -65,7 +65,7 @@
     text-align: center;
   }
   
-  .container .btn:hover {
+  .container-info .btn:hover {
     background-color: black;
   }
   
@@ -73,7 +73,7 @@
     .dialogCenter {
         left: 22%;
     }
-    .center {
+    .center-info {
         left: -20em;
     }
   }
@@ -82,14 +82,17 @@
     .dialogLeft {
         left: -30%;
       }
-    .dialogCenter {
-        left: 27%;
+    .dialogCenter{
+       left: 8em;
     }
     .dialogRight {
         left: 28%;
     }
-    .center {
-        left: -20em;
+    .left-info {
+      width: 75vw;
+   }
+    .center-info {
+       width: 75vw;
     }
   }
 
@@ -107,8 +110,9 @@
     .dialogRight {
         left: 40%;
     }
-    .center {
-        left: -10em;
+    .center-info {
+        left: -16em;
+        width: 80vw;
     }
   }
 
@@ -121,3 +125,4 @@
         height: 180vh;
       }
   }
+  

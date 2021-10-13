@@ -17,15 +17,15 @@ export const Statistics = () => {
             </div>
             <div className="grid-container">
                 <div className="grid-item">
-                    <Infographic img={stats_1} dialog="dialogLeft" expand="left" />
+                    <Infographic img={stats_1} dialog="dialogLeft" expand="left-info" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div className="grid-item">
-                    <Infographic img={stats_2}  dialog="dialogCenter" expand="center"/>
+                    <Infographic img={stats_2}  dialog="dialogCenter" expand="center-info"/>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div className="grid-item">
-                    <Infographic img={stats_3} dialog="dialogRight" expand="right"/>
+                    <Infographic img={stats_3} dialog="dialogRight" expand="right-info"/>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
