@@ -12,7 +12,7 @@ export const MythsFacts = () => {
                 </div>
                 <div className="grid-item-mf">
                     <div className="container-mf">
-                        <h1>MYTHS</h1>
+                        <h1 className="title-mf">MYTHS</h1>
                         <ul>
                             <li>Mental illness is incurable and lifelong.</li>
                             <li>Only certain types of people develop a mental illness.</li>
@@ -22,7 +22,7 @@ export const MythsFacts = () => {
                 </div>
                 <div className="grid-item-mf">
                     <div className="container-mf">
-                    <h1>FACTS</h1>
+                    <h1 className="title-mf">FACTS</h1>
                         <ul>
                             <li>With the right kind of help, treated appropriately and early, most people recover fully and have no further episodes of illness.</li>
                             <li>Everyone is vulnerable to mental health problems.</li>

@@ -1,6 +1,6 @@
 .wrapper {
   background-color: #A6E1FA;
-  height: 44em;
+  height: 42em;
 }
 
 .row {
@@ -51,30 +51,21 @@
     top: 0;
     left: 0;
     width: 100%;
-    max-width: 530px;
+    max-width: 700px;
     height: auto;
     padding-left: 30%;
   }
 
-.img2-emergency {
-    position: absolute;
-    top: 80%;
-    left: 20%;
-    width: 100%;
-    max-width: 400px;
-    height: auto;
+  @media (max-width: 1410px) {
+    .wrapper {
+      height: 44em;
+    }
   }
 
-  @media (max-width: 1150px) {
+  @media (max-width: 1130px) {
     .img1-emergency {
       width: 100%;
-      max-width: 400px;
-      height: auto;
-    }
-
-    .img2-emergency {
-      width: 100%;
-      max-width: 300px;
+      max-width: 500px;
       height: auto;
     }
 
@@ -86,24 +77,15 @@
   @media (max-width: 900px) {
     .contacts {
       padding-left: 1.5em;
+      padding-top: 2em;
     }
     .img1-emergency {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 50%;
-      max-width: 400px;
+      max-width: 500px;
       height: auto;
       padding-left: 10%;
-    }
-
-    .img2-emergency {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-      max-width: 400px;
-      height: auto;
     }
     .row {
       flex-direction: column;
@@ -119,7 +101,7 @@
     }
   }
 
-  @media (max-width: 520px) {
+  @media (max-width: 745px) {
     .contacts {
       padding-left: 1em;
     }
@@ -127,4 +109,33 @@
     .wrapper {
       height: 64em;
     }
+
+    .img1-emergency {
+      max-width: 500px;
+      height: auto;
+    }
   }
+
+  @media (max-width: 640px) {
+    .wrapper {
+      height: 67em;
+    }
+    .img1-emergency {
+      max-width: 400px;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 460px) {
+    .img1-emergency {
+      max-width: 300px;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 430px) {
+    .wrapper {
+      height: 77em;
+    }
+  }
+

@@ -17,25 +17,30 @@
 
 .title {
     background-color: black;
-    width: 300px;
+    width: 25vw;
     padding: 68px;
     margin: 0px;
 }
 
 .title-mf {
-    font-family: 'Courier New', monospace;
-    font-weight: lighter;
-    color: white;
-    text-align: left;
+    padding-top: 4vh;
+    font-size: 47px;
+    font-family: 'Source Serif Pro';
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);   
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
 
 .container-mf {
     background-color: rgb(5, 5, 41);
-    width: 300px;
+    width: 30vw;
     padding: 68px;
     margin: 0px;
-    font-family: 'Courier New', monospace;
-    font-weight: lighter;
+    font-family: 'IBM Plex Sans';
+    font-size: 28px;
     color: white;
     text-align: left;
 }
