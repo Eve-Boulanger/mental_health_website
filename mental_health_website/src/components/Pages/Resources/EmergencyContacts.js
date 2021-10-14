@@ -1,7 +1,6 @@
 import React from "react";
 import './css/EmergencyContacts.css'
 import thinking from '../../Images/thinking.png'
-import strength_msg from '../../Images/strength_msg.png'
 
 export const EmergencyContacts = () => {
     return(
@@ -24,7 +23,6 @@ export const EmergencyContacts = () => {
         <div className="column">
             <div className="parent">
                 <img className="img1-emergency" src={thinking} alt="Thinking Head" />
-                <img className="img2-emergency" src={strength_msg} alt="Strength Message" />
             </div>
           </div>
         </div>

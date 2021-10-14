@@ -14,7 +14,7 @@ function DonateTabs() {
         }
 
     return(
-        <div className="container">
+        <div className="container-donate-tabs">
             <div className="bloc-tabs">
                 <div
                 className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
