@@ -6,13 +6,13 @@
     color: rgba(0, 7, 45, 1);
 }
 
-.container{
+.containerHome{
     background: rgba(108, 181, 203, 1);
     position: absolute;
     font-family: 'source serif pro';
     text-align: left;
     padding-left: 100px;
-    padding-top: 30px;
+    padding-top: 60px;
     position: absolute;
     box-sizing: border-box;
     width: 100%;
@@ -32,14 +32,14 @@
     top: 50px;
 }
 
-.aboutContainer h2 {
+.aboutContainerHome h2 {
     position: relative;
     margin: 0px;
     width: 20px;
     box-sizing: border-box;
     height: 20px;
     left: 200px;
-    top: 170px;
+    top: 190px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -49,11 +49,11 @@
     color: #00072D;
 }
 
-.aboutContainer p {
+.aboutContainerHome p {
     position: relative;
     padding-left: 200px;
-    width: 70%;
-    top: 180px;
+    width: 85%;
+    top: 220px;
     font-family: 'IBM Plex Sans';
     font-size: 18px;
 }
@@ -62,31 +62,45 @@
     font-weight: bold;
 }
 
-.donateButton{
-    position: relative;
-    left: 41%;
-    top: 210px;
+.donateButtonHome{
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    background: #168AAD;
 }
 
-.donateButton button {
+.donateButtonHome p {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    padding-left: 100px;
+    text-align: left;
+    color:rgba(0, 7, 45, 1);
+}
+
+.donateButtonHomeBUTTON {
+    text-align: right;
+}
+
+.donateButtonHomeBUTTON button {
     position: relative;
-    width: 250px;
+    width: 30%;
     height: 50px;
-    background: #168AAD;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background:#9CD7B1;
     border: 0px;
     font-family: 'IBM Plex Sans';
     font-weight: bold;
     font-size: 25px;
     color: rgba(15, 31, 44, 1);
-
+    text-align: center;
 }
-.donateButton img {
-    position: relative;
-    width: 25px;
-    top: 5px;
+.donateButtonHome img {
+    position: absolute;
+    width: 23px;
+    padding-left: 4px;
+    top: 15px;
 }
-.middleAndBackText {
+.middleAndBackTextHome {
     position: relative; 
     top: 250px;
     box-sizing: border-box;
@@ -98,31 +112,32 @@
     text-align: center;
     z-index: -1;
 }
-.middleAndBackText h2 {
-    padding-top: 80px;
+.middleAndBackTextHome h2 {
+    padding-top: 65px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
 }
-.middleAndBackText p{
-    padding-top: 2px;
-    width: 15%;
-    padding-left: 42.5%;
+.middleAndBackTextHome p{
+    padding-top: 3px;
+    width: 750px;
+    padding-left: 510px;
     font-family: 'IBM Plex Sans';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
 }
 .readMoreMiddle button {
-    padding-top: 72px;
+    padding-top: 93px;
     border: none;
     background-color: #9CD7B1;
     text-decoration: underline;
+    font-family: 'IBM Plex Sans';
 }
-.leftText {
+.leftTextHome {
     position: absolute; 
-    top: 961px;
+    top: 980px;
     left: 125px;
     width: 25%;
     height: 282px;
@@ -131,13 +146,14 @@
     text-align: center;
     border-radius: 10px;
 }
-.leftText h2 {
+.leftTextHome h2 {
     font-size: 25px;
+    padding-top: 10px;
 }
-.leftText p{
-    padding-top: 2px;
-    padding-left: 58px;
-    width: 200px;
+.leftTextHome p{
+    padding-top: 3px;
+    padding-left: 35px;
+    width: 280px;
     font-family: 'IBM Plex Sans';
     font-size: 18px;
     font-style: normal;
@@ -148,10 +164,12 @@
     border: none;
     background-color: #B8E6AE;
     text-decoration: underline;
+    font-weight: normal;
+    font-family: 'IBM Plex Sans';
 }
-.rightText {
+.rightTextHome {
     position: absolute; 
-    top: 961px;
+    top: 980px;
     right: 125px;
     width: 25%;
     height: 282px;
@@ -160,13 +178,14 @@
     text-align: center;
     border-radius: 10px;
 }
-.rightText h2 {
+.rightTextHome h2 {
     font-size: 25px;
+    padding-top: 10px;
 }
-.rightText p{
-    padding-top: 2px;
-    padding-left: 58px;
-    width: 200px;
+.rightTextHome p{
+    padding-top: 3px;
+    padding-left: 35px;
+    width: 280px;
     font-family: 'IBM Plex Sans';
     font-size: 18px;
     font-style: normal;
@@ -177,4 +196,6 @@
     border: none;
     background-color: #B8E6AE;
     text-decoration: underline;
+    font-weight: normal;
+    font-family: 'IBM Plex Sans';
 }
