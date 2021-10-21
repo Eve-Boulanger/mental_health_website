@@ -1,7 +1,4 @@
 import React from "react";
-import {AiOutlineArrowLeft} from "react-icons/ai";
-import {AiOutlineArrowRight} from "react-icons/ai";
-import {IconContext} from "react-icons"
 import "./Activities.css";
 
 export const Activities = () => {
@@ -17,19 +14,21 @@ export const Activities = () => {
           
         
         <div className="body">
-          <div className="card">
-            <p>Activity #1:</p>
-            <p>[Description]</p>
+          <div className="activities-card">
+            <a href="https://www.nytimes.com/guides/well/how-to-meditate">New York Times - Guide to Meditation</a>
+            <p>This article has lots of information and many different guided audio meditations to try!</p>
           </div>
 
-          <div className="card">
-            <p>Activity #2:</p>
-            <p>[Description]</p>
+          <div className="activities-card">
+            <a href="https://www.healthline.com/health/how-to-keep-mood-journal#How-to-keep-a-mood-journal">Mood Journal Tutorial</a>
+            <p>A mood journal is a great way to help you process and understand your emotions. This article gives instructions on how to start one!</p>
           </div>
 
-          <div className="card">
-            <p>Activity #3:</p>
-            <p>[Description]</p>
+          <div className="activities-card">
+            <a href="https://www.mhanational.org/31-tips-boost-your-mental-health">31 Tips to Boost Your Mental Health</a>
+            <p>Not all suggested mental health practices will work for you so here's a quick list of various things you
+              can try to help boost your mood!
+            </p>
           </div>
         </div>
       </div>
@@ -46,15 +45,18 @@ export const Activities = () => {
         </div>
           
         <div className="body">
-          <div className="card">
-          <iframe width="250" height="150" src="https://www.youtube.com/embed/ZToicYcHIOU" title="YouTube video player" frameborder="0"></iframe>
+          <div className="meditation-card">
+            <p>The video below focuses on Mindfulness Meditation to help you be present in your life.</p>
+            <iframe width="250" height="150" src="https://www.youtube.com/embed/ZToicYcHIOU" title="YouTube video player" frameborder="0"></iframe>
           </div>
 
-          <div className="card">
+          <div className="meditation-card">
+            <p>The meditation video below is intended to help you learn how to deal with stress by reframing it.</p>
           <iframe width="250" height="150" src="https://www.youtube.com/embed/sG7DBA-mgFY" title="YouTube video player" frameborder="0" ></iframe>
           </div>
 
-          <div className="card">
+          <div className="meditation-card" >
+            <p>This video can help declutter all the thoughts in your brain by focusing on resetting the body and mind.</p>
           <iframe width="250" height="150" src="https://www.youtube.com/embed/QHkXvPq2pQE" title="YouTube video player" frameborder="0"></iframe>
           </div>
         </div>
@@ -66,25 +68,13 @@ export const Activities = () => {
           <p>Here are some quizzes you can take to help you learn more about mental health, its practices and its importance!</p>
         </div>
         <div className="body">
-          <div className="quizzes-card">
-            <div className="quizzes-card-header">
-              <IconContext.Provider value={{ style: {fontSize: '30px', color: '#6CB5CB'}}}>
-                <div>
-                  <AiOutlineArrowLeft />
-                </div>
-              </IconContext.Provider>
-              <div className="quiz-title">
-                <p>Quiz #1</p>
-                <p>[Description]</p>
-              </div>
-              <IconContext.Provider value={{ style: {fontSize: '30px', color: '#6CB5CB'}}}>
-                <div>
-                  <AiOutlineArrowRight/>
-                </div>
-              </IconContext.Provider>
-            </div>
-
-            <iframe src="https://support.google.com/youtube/answer/72689?visit_id=637686468766209729-1400570249&rd=1" title="Embedded quiz" width="500" height="350"></iframe>
+          <div className="activities-card">
+            <a href="https://www.cdc.gov/mentalhealth/quiz/index.htm">CDC - Mental Health Quiz</a>
+            <p>Take this quiz to see if you can distinguish between myths and facts about mental health!</p>
+          </div>
+          <div className="activities-card">
+            <a href="https://www.sja.org.uk/course-information/guidance-and-help/mental-health-resources/mental-health-quiz/#quiz">St John Ambulance - Mental Health Quiz</a>
+            <p>Take this quiz to test your knowledge about mental health topics!</p>          
           </div>
         </div>
       </div>

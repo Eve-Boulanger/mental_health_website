@@ -1,0 +1,32 @@
+.fourthRow {
+    background-color: #0E6BA8;
+    margin-top: -22px;
+    padding-bottom: 6vh;
+}
+
+.article {
+    background-color: white;
+    width: 20vw;
+    margin: 1em;
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+}
+
+.custom-img {
+    border: 1em solid black;
+    width: inherit;
+    height: 35vh;
+}
+
+
+@media (max-width: 630px) {
+    .article {
+        width: 30vw;
+    }
+  }
+
+@media (max-width: 576px) {
+   .article {
+       width: 60vw;
+   }
+ }

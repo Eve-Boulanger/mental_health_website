@@ -7,12 +7,13 @@
     display: inline-block;
     justify-content: center;
     color: #76C893;
-    padding-bottom: 10px;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
   }
   
   .header-text{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 20vw;
+    padding-right: 20vw;
   }
   .practices-container p{
     color: black;
@@ -23,7 +24,7 @@
     justify-content: center;
   }
   
-  .card{
+  .activities-card{
     width: 30vw;
     height: 30vh;
     border-radius: 10px;
@@ -31,6 +32,9 @@
     color: black;
     background-color: white;
     margin: 10px;
+    justify-content: space-evenly;
+    display:flex;
+    flex-direction: column;
   }
   
   .meditation-container {
@@ -38,15 +42,26 @@
     display: inline-block;
     justify-content: center;
     color: #168AAD;
-    padding-bottom: 10px;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+  }
+
+  .meditation-card{
+    width: 30vw;
+    height: 40vh;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    margin: 10px;
+    justify-content: space-evenly;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .meditation-container p{
     color: black;
-  }
-
-  .meditation-container iframe{
-    padding-top: 2vh;
   }
   
   .quizzes-container {
@@ -54,7 +69,8 @@
     display: inline-block;
     justify-content: center;
     color:black;
-    padding-bottom: 10px;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
     width: 100%;
   }
   
