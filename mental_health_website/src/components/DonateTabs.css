@@ -6,7 +6,7 @@
     flex-direction: column;
     box-sizing: border-box;
     position: relative;
-    right: 70px;
+    right: 10px;
     margin-top: 15vh;
     margin-bottom: 70px;
     word-break: break-all;
@@ -16,8 +16,8 @@
 
 @media screen and (max-width: 1500px) {
     .container-donate-tabs {
-        right: 0px;
-        margin-top: 350px;
+        right: 10px;
+        margin-top: 15vh;
     }
     .interac-etransfer {
         min-height: 0 !important;

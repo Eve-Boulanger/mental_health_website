@@ -21,11 +21,11 @@ html {
 
 @media screen and (max-width: 1500px) {
     .top-container {
-        flex-direction: column;
+        flex-direction: row;
     }
     
     .bottom-container {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .content-text {
@@ -35,7 +35,7 @@ html {
 
 .donate {
     height: 100%;
-    min-height: 100vh;
+    min-height: 100%;
     position: relative;
     box-sizing: border-box;
 }
@@ -43,25 +43,25 @@ html {
 .merch {
     min-height: 100vh;
     display: flex;
-    position: absolute;
+    position: relative;
     overflow: hidden;
 }
 
 .left {
-    flex: 50%;
-    height: 100vh;
+    width: 50%;
 }
 
 .right {
-    flex: 50%;
+    position: relative;
+    width: 50%;
 }
 
 
 .donate h1 {
-    position: absolute;
+    position: relative;
     height: 88px;
     left: 70px;
-    top: 189px;
+    top: 15vh;
     font-family: 'Source Serif Pro', serif;
     font-weight: 900;
     font-size: calc(60px + 0.5vw);
@@ -69,13 +69,10 @@ html {
 }
 
 .content-text {
-    flex: 50%;
     position: relative;
-    top: 350px;
-    width: 100%;
+    top: 275px;
     margin-bottom: 70px;
     padding-left: 70px;
-    padding-right: 140px;
 }
 
 .content-text p {
