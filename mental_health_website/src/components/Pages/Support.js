@@ -42,7 +42,7 @@ export const Support = () => {
           </div>
         </div>
         <div className="right">
-            <DonateTabs/>
+          <DonateTabs/>
         </div>
       </div>
       
