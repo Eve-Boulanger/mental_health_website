@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Montserrat:wght@700&display=swap');
 .cart-item{
     background-color: #E5E5E5;
     width: 100%;
@@ -7,4 +8,6 @@
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 5px;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans';
 }

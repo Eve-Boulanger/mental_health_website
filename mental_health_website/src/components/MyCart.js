@@ -5,7 +5,7 @@ import "./MyCart.css";
 export const MyCart = () => {
     return (
       <div className="MyCart-container">
-        <h3>My Cart</h3>
+        <h2>My Cart</h2>
         
         <div className="MyCart-divider" />
 
@@ -14,8 +14,8 @@ export const MyCart = () => {
         <div className="MyCart-divider" />
         
         <div className="MyCart-cost-summary">
-          <h3>Total + Shipping <span class="green-text"> ($10.99)</span></h3>
-          <h3>$ 102.98</h3>
+          <h2>Total + Shipping <span class="green-text"> ($10.99)</span></h2>
+          <h2>$ 102.98</h2>
         </div>
         
 
