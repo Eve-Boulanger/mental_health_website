@@ -1,6 +1,8 @@
 import React from "react";
 import DonateTabs from "../DonateTabs";
-import {ShopItems} from "../ShopItems";
+
+import ShopItems from "../ShopItems";
+import {MyCart} from "../MyCart";
 import "./Support.css";
 
 import teddy from "./images/merch-teddy.JPG";
@@ -54,7 +56,9 @@ export const Support = () => {
             </div>
         </div>
         
-        <div className="right"></div>
+        <div className="right">
+          <MyCart/>
+        </div>
       </div>
     </div>
   );

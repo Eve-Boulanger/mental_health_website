@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.MyCart-container{
+    position: relative;
+
+    top: 270px;
+    left: 10%;
+    height: 250px;
+    width: 80%;
+
+    background: #ffff;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.MyCart-divider{
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.MyCart-cost-summary{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.green-text{
+    color: #76C893;
+}
