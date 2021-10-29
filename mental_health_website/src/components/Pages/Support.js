@@ -1,6 +1,6 @@
 import React from "react";
 import DonateTabs from "../DonateTabs";
-import ShopItems from "../ShopItems";
+import {ShopItems} from "../ShopItems";
 import "./Support.css";
 
 import teddy from "./images/merch-teddy.JPG";
