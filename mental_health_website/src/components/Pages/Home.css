@@ -129,7 +129,7 @@
     font-size: 18px;
 }
 .readMoreMiddle button {
-    padding-top: 93px;
+    padding-top: 108px;
     border: none;
     background-color: #9CD7B1;
     text-decoration: underline;
@@ -160,7 +160,7 @@
     font-weight: normal;
 }
 .readMoreLeft button {
-    padding-top: 10px;
+    padding-top: 0px;
     border: none;
     background-color: #B8E6AE;
     text-decoration: underline;
@@ -192,7 +192,7 @@
     font-weight: normal;
 }
 .readMoreRight button {
-    padding-top: 10px;
+    padding-top: 1px;
     border: none;
     background-color: #B8E6AE;
     text-decoration: underline;
