@@ -1,7 +1,7 @@
 import React from "react";
 import DonateTabs from "../DonateTabs";
 
-import ShopItems from "../ShopItems";
+import {ShopItems} from "../ShopItems";
 import {MyCart} from "../MyCart";
 import "./Support.css";
 
