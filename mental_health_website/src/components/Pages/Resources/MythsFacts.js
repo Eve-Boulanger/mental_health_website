@@ -6,7 +6,7 @@ export const MythsFacts = () => {
         <div className="thirdRow">
             <div className="grid-container-mf">
                 <div className="grid-item-mf">
-                    <div className="title">
+                    <div className="title-sec">
                         <h1 className="title-mf">Myths and Facts about Mental Health</h1>
                     </div>
                 </div>
