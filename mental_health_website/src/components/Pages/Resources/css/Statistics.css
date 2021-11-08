@@ -443,3 +443,18 @@
     -webkit-transform: translateX(-50%) translateY(-50%);
             transform: translateX(-50%) translateY(-50%);
   }
+
+
+  @media (max-width: 900px) {
+    .secondRow {
+      height: 132em;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .secondRow {
+      height: 177em;
+    }
+  }
+
+

@@ -17,7 +17,6 @@ import hat2 from "./Pages/images/hat2.JPG";
 import hat3 from "./Pages/images/hat3.JPG";
 import hat4 from "./Pages/images/hat4.JPG";
 
-
 import "./ShopItems.css";
 
 export const ShopItems = () => {

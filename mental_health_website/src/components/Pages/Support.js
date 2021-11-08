@@ -7,6 +7,7 @@ import "./Support.css";
 
 import teddy from "./images/merch-teddy.JPG";
 
+
 export const Support = () => {
   return (
     <div>
@@ -49,16 +50,7 @@ export const Support = () => {
       </div>
       
       <div className="merch bottom-container">
-        <div className="left">
-          <h1><img src={teddy} alt="teddy" width={168} height={100}/> SHOP.</h1>
-            <div>
-              < ShopItems/>
-            </div>
-        </div>
-        
-        <div className="right">
-          <MyCart/>
-        </div>
+        <MyCart />
       </div>
     </div>
   );
