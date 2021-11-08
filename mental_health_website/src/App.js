@@ -6,6 +6,8 @@ import { Home } from "./components/Pages/Home";
 import { Activities } from "./components/Pages/Activities";
 import { Resources } from "./components/Pages/Resources/Resources";
 import { Support } from "./components/Pages/Support";
+import { PaymentConfirmation } from "./components/Pages/PaymentConfirmation";
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
             <Route path="/activities" component={Activities} />
             <Route path="/resources" component={Resources} />
             <Route path="/support" component={Support} />
+            <Route path="/paymentconfirmation" component={PaymentConfirmation} />
           </Switch>
         </div>
       </Router>

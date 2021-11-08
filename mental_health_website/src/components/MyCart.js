@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { CartItem } from "./CartItem";
 import "./MyCart.css";
+import {Link} from "react-router-dom";
 import items from "./Products";
 import { Card, CardGroup, Carousel, Image } from "react-bootstrap";
 import { Button } from "react-bootstrap";
@@ -91,12 +92,16 @@ export const MyCart = () => {
            <div className="MyCart-divider" />
              {listItemsInCart()}
            <div className="MyCart-divider" />
-         <div className="MyCart-cost-summary">
-           <h4>Total + Shipping <span class="green-text"> ($10.99)</span></h4>
-           <h4>$ {cartTotal()}</h4>
-         </div>
-       </div>
+           <div className="MyCart-cost-summary">
+            <h4>Total + Shipping <span class="green-text"> ($10.99)</span></h4>
+            <h4>$ {cartTotal()}</h4>
+            <Link to="/paymentconfirmation"><button>
+              Pay Now
+            </button>
+            </Link>
+          </div>
       </div>
+    </div>
     </div>
     );
   };

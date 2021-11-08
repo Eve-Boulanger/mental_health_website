@@ -21,17 +21,17 @@ import "./ShopItems.css";
 
 export const ShopItems = () => {
     return(
-            <CardGroup className = "grid" data-interval="false">
-            <Card className="text-center box" data-interval="false">
-                <Carousel className="itemPics" data-interval="false">
+            <CardGroup className = "grid">
+            <Card className="text-center box">
+                <Carousel className="itemPics" interval="100000000000000">
                     <Carousel.Item>
-                        <Card.Img className="itemPics" as={Image} variant="top" src={patch1}/>
+                        <Card.Img as={Image} variant="top" src={patch1} />
                     </Carousel.Item>
-                    <Carousel.Item >
-                        <Card.Img className="itemPics" as={Image} variant="top" src={patch2}/>
+                    <Carousel.Item>
+                        <Card.Img as={Image} variant="top" src={patch2}/>
                     </Carousel.Item>
-                    <Carousel.Item >
-                        <Card.Img className="itemPics" as={Image} variant="top" src={patch3}/>
+                    <Carousel.Item>
+                        <Card.Img as={Image} variant="top" src={patch3}/>
                     </Carousel.Item>
                 </Carousel>
                 <Card.Body>
@@ -44,18 +44,18 @@ export const ShopItems = () => {
                 </Card.Body>
             </Card>
             <Card className="text-center box">
-                <Carousel className="itemPics" data-interval="false">
-                    <Carousel.Item data-interval="false">
-                        <Card.Img className="itemPics" as={Image} variant="top" src={pin1}/>
+                <Carousel className="itemPics" interval="100000000000000">
+                    <Carousel.Item>
+                        <Card.Img as={Image} variant="top" src={pin1}/>
                     </Carousel.Item>
                     <Carousel.Item >
-                        <Card.Img className="itemPics" as={Image} variant="top" src={pin2}/>
+                        <Card.Img as={Image} variant="top" src={pin2}/>
                     </Carousel.Item>
                     <Carousel.Item >
-                        <Card.Img className="itemPics" as={Image} variant="top" src={pin3}/>
+                        <Card.Img as={Image} variant="top" src={pin3}/>
                     </Carousel.Item>
                     <Carousel.Item >
-                        <Card.Img className="itemPics" as={Image} variant="top" src={pin4}/>
+                        <Card.Img as={Image} variant="top" src={pin4}/>
                     </Carousel.Item>
                 </Carousel>
                 <Card.Body>
@@ -66,19 +66,19 @@ export const ShopItems = () => {
                     <Button className="button" variant="dark">ADD TO CART</Button>
                 </Card.Body>
             </Card>
-            <Card className="text-center box" data-interval="false">
-                <Carousel className="itemPics" data-interval="false">
-                    <Carousel.Item data-interval="false">
-                        <Card.Img className="itemPics" as={Image} variant="top" src={hat1}/>
+            <Card className="text-center box">
+                <Carousel className="itemPics" interval="100000000000000">
+                    <Carousel.Item>
+                        <Card.Img as={Image} variant="top" src={hat1}/>
                     </Carousel.Item>
                     <Carousel.Item >
-                        <Card.Img className="itemPics" as={Image} variant="top" src={hat2}/>
+                        <Card.Img as={Image} variant="top" src={hat2}/>
                     </Carousel.Item>
                     <Carousel.Item >
-                        <Card.Img className="itemPics" as={Image} variant="top" src={hat3}/>
+                        <Card.Img as={Image} variant="top" src={hat3}/>
                     </Carousel.Item>
                     <Carousel.Item >
-                        <Card.Img className="itemPics" as={Image} variant="top" src={hat4}/>
+                        <Card.Img as={Image} variant="top" src={hat4}/>
                     </Carousel.Item>
                 </Carousel>
                 <Card.Body>
