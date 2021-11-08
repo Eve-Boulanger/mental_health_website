@@ -1,6 +1,7 @@
 import React from "react";
 import { CartItem } from "./CartItem";
 import "./MyCart.css";
+import {Link} from "react-router-dom";
 
 export const MyCart = () => {
     return (
@@ -16,6 +17,10 @@ export const MyCart = () => {
         <div className="MyCart-cost-summary">
           <h4>Total + Shipping <span class="green-text"> ($10.99)</span></h4>
           <h4>$ 102.98</h4>
+          <Link to="/paymentconfirmation"><button>
+              Pay Now
+            </button>
+          </Link>
         </div>
         
 
