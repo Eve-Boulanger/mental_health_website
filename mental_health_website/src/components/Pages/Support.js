@@ -3,6 +3,7 @@ import DonateTabs from "../DonateTabs";
 
 import {ShopItems} from "../ShopItems";
 import {MyCart} from "../MyCart";
+import { ShopCheckoutForm } from "../ShopCheckoutForm";
 import "./Support.css";
 
 import teddy from "./images/merch-teddy.JPG";
@@ -51,6 +52,7 @@ export const Support = () => {
       
       <div className="merch bottom-container">
         <MyCart />
+        <ShopCheckoutForm/>
       </div>
     </div>
   );
