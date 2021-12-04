@@ -18,6 +18,18 @@
     height: 35vh;
 }
 
+.card-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 900px) {
+    .article {
+        width: 30vw;
+    }
+  }
 
 @media (max-width: 630px) {
     .article {
@@ -25,8 +37,13 @@
     }
   }
 
-@media (max-width: 576px) {
-   .article {
-       width: 60vw;
-   }
- }
+@media (max-width: 580px) {
+  .article {
+      width: 50vw;
+  }
+  .card-group {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+}

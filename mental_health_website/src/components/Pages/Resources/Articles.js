@@ -16,7 +16,7 @@ export const Articles = () => {
                 Donec dictum tincidunt vulputate.
             </p>
             </div>
-            <CardGroup style={{margin: '2em 5em 5em 5em'}}>
+            <CardGroup>
               <Card bsPrefix="article">
                 <Card.Img bsPrefix='custom-img' src={article_1}/>
                 <Card.Body>

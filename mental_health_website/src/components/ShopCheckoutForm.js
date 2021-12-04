@@ -1,9 +1,11 @@
 import React from "react";
 import './ShopCheckoutForm.css';
+import { Row, Col } from "react-bootstrap";
 
 export const ShopCheckoutForm = () => {
     return (
-        <div>
+        <Row>
+            <Col>
             <div className="shop-form-container">
                 <div className="left">
                     <input
@@ -75,7 +77,9 @@ export const ShopCheckoutForm = () => {
                     PLACE ORDER
                 </button>                
             </div>
-        </div>
-        
+            </Col>
+        </Row>
     );
   };
+
+  export default ShopCheckoutForm;

@@ -1,17 +1,13 @@
 import React from "react";
 import DonateTabs from "../DonateTabs";
-
-import {ShopItems} from "../ShopItems";
 import {MyCart} from "../MyCart";
-import { ShopCheckoutForm } from "../ShopCheckoutForm";
 import "./Support.css";
-
-import teddy from "./images/merch-teddy.JPG";
-
+import { Container, Row } from "react-bootstrap";
 
 export const Support = () => {
   return (
-    <div>
+    <Container fluid bsPrefix="container-support">
+      <Row>
       <div className="donate top-container">
         <div className="left">
           <h1><span className="color1">Donate</span><span className="color2"> now!</span></h1>
@@ -49,11 +45,11 @@ export const Support = () => {
           <DonateTabs/>
         </div>
       </div>
-      
-      <div className="merch bottom-container">
+      </Row>
+
+      <div className="merch">
         <MyCart />
-        <ShopCheckoutForm/>
       </div>
-    </div>
+    </Container>
   );
 };
