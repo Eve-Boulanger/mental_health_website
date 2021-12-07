@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Montserrat&family=Source+Serif+Pro:wght@700&display=swap');
 .activities-page {
     text-align: center;
   }
@@ -6,7 +7,7 @@
     background-color: #B8E6AE;
     display: inline-block;
     justify-content: center;
-    color: #76C893;
+    color: #4F8F66;
     padding-bottom: 5vh;
     padding-top: 5vh;
   }
@@ -15,26 +16,46 @@
     padding-left: 20vw;
     padding-right: 20vw;
   }
+
+  .header-text h1{
+    font-family: 'Source Serif Pro';
+  }
+
+  .header-text p{
+    font-family: 'IBM Plex Sans';
+    font-weight:600;
+  }
+
   .practices-container p{
     color: black;
+    padding: 3px;
+    
   }
   
+  .practices-container a{
+    color: black;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    padding: 3px;
+  }
+
   .body{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   
   .activities-card{
-    width: 30vw;
+    width: 25vw;
     height: 30vh;
     border-radius: 10px;
-    border: 1px solid black;
     color: black;
-    background-color: white;
+    background-color: #76C893;
     margin: 10px;
     justify-content: space-evenly;
     display:flex;
     flex-direction: column;
+    font-family: 'Montserrat';
+    font-size:medium;
   }
   
   .meditation-container {

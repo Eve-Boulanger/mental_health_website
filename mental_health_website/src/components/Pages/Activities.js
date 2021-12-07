@@ -6,7 +6,7 @@ export const Activities = () => {
     <div className="activities-page">
       <div className="practices-container">
         <div className="header-text">
-          <h3>Mental Health Practices</h3>
+          <h1>Mental Health Practices</h1>
           <p>There are many different techniques and practices that can be 
             used to improve our overall mental health and well-being. 
             Here are some activities you can start with!</p>
