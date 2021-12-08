@@ -35,7 +35,7 @@ export const Activities = () => {
 
       <div className="meditation-container">
         <div className="header-text">
-          <h3>Meditation Techniques</h3>
+          <h1>Meditation Techniques</h1>
           <p>Meditation can help you achieve a mentally clear
             and emotionally calm and stable state. Some guided 
             meditation videos to help you get started with this 
@@ -46,18 +46,18 @@ export const Activities = () => {
           
         <div className="body">
           <div className="meditation-card">
-            <p>The video below focuses on Mindfulness Meditation to help you be present in your life.</p>
-            <iframe width="250" height="150" src="https://www.youtube.com/embed/ZToicYcHIOU" title="YouTube video player" frameborder="0"></iframe>
+            <iframe width="80%" height="70%" src="https://www.youtube.com/embed/ZToicYcHIOU" title="YouTube video player" frameborder="0"></iframe>
+            <p>Video 1: Daily Calm Mindfulness Meditation [approx.10 minutes]</p>
           </div>
 
           <div className="meditation-card">
-            <p>The meditation video below is intended to help you learn how to deal with stress by reframing it.</p>
-          <iframe width="250" height="150" src="https://www.youtube.com/embed/sG7DBA-mgFY" title="YouTube video player" frameborder="0" ></iframe>
+            <iframe width="80%" height="70%" src="https://www.youtube.com/embed/sG7DBA-mgFY" title="YouTube video player" frameborder="0" ></iframe>
+            <p>Video 2: Reframe Stress Meditation [approx. 10 minutes]</p>
           </div>
 
           <div className="meditation-card" >
-            <p>This video can help declutter all the thoughts in your brain by focusing on resetting the body and mind.</p>
-          <iframe width="250" height="150" src="https://www.youtube.com/embed/QHkXvPq2pQE" title="YouTube video player" frameborder="0"></iframe>
+            <iframe width="80%" height="70%" src="https://www.youtube.com/embed/QHkXvPq2pQE" title="YouTube video player" frameborder="0"></iframe>
+            <p>Video 3: Decompress Your Body and Mind [approx. 10 minutes]</p>
           </div>
         </div>
       </div>
