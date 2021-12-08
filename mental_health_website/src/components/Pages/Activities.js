@@ -64,15 +64,15 @@ export const Activities = () => {
 
       <div className="quizzes-container">
         <div className="header-text">
-          <h3>Interactive Quizzes</h3>
+          <h1>Interactive Quizzes</h1>
           <p>Here are some quizzes you can take to help you learn more about mental health, its practices and its importance!</p>
         </div>
-        <div className="body">
-          <div className="activities-card">
+        <div className="quizzes-body">
+          <div className="quizzes-card">
             <a href="https://www.cdc.gov/mentalhealth/quiz/index.htm">CDC - Mental Health Quiz</a>
             <p>Take this quiz to see if you can distinguish between myths and facts about mental health!</p>
           </div>
-          <div className="activities-card">
+          <div className="quizzes-card">
             <a href="https://www.sja.org.uk/course-information/guidance-and-help/mental-health-resources/mental-health-quiz/#quiz">St John Ambulance - Mental Health Quiz</a>
             <p>Take this quiz to test your knowledge about mental health topics!</p>          
           </div>
