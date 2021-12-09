@@ -445,7 +445,25 @@
   }
 
 
-  @media (max-width: 900px) {
+  @media (max-width: 960px) {
+    .secondRow {
+      height: 134em;
+    }
+    .row {
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .secondRow {
+      height: 177em;
+    }
+    .row {
+      align-items: center;
+    }
+  }
+
+  /* @media (max-width: 900px) {
     .secondRow {
       height: 132em;
     }
@@ -455,6 +473,6 @@
     .secondRow {
       height: 177em;
     }
-  }
+  } */
 
 

@@ -7,6 +7,10 @@ import { Card, CardGroup, Carousel, Image } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import teddy from './Pages/images/merch-teddy.JPG'
 import "./Pages/Support.css";
+import './ShopItems.css'
+import ShopCheckoutForm from './ShopCheckoutForm'
+import { Container, Row, Col } from "react-bootstrap";
+
 
 export const MyCart = () => {
   const [cart, setCart] = useState([])
@@ -48,9 +52,9 @@ export const MyCart = () => {
           <Card.Title className = "titleCard">{item.name}</Card.Title>
           <div className = "counterStyle">
           <div className = "ButtonCounterContainer">
-            <Button sign="+" onClick={() => {addToCart(item); setCount(count + 1)}} />
+            <Button variant="light" sign="+" onClick={() => {addToCart(item); setCount(count + 1)}} >+</Button>
             &nbsp;&nbsp;&nbsp;{amountOfItems(item.id)}&nbsp;&nbsp;&nbsp;
-            <Button sign="-" onClick={() => {removeFromCart(item); setCount(count - 1)}} />
+            <Button sign="-" variant="light" onClick={() => {removeFromCart(item); setCount(count - 1)}} >-</Button>
           </div>
           </div>
           <Button className="button" variant="dark" onClick={() => addToCart(item)}>ADD TO CART</Button>
@@ -77,31 +81,43 @@ export const MyCart = () => {
 
 
     return (
-      <div className="row">  
-      <div className="col-md-6">
+      <Row>  
+      <Col>
         <h1><img src={teddy} alt="teddy" width={168} height={100}/> SHOP.</h1>
-          <div>
+          <div className="items-container">
             <CardGroup className = "grid" data-interval="false">
               {listItemsToBuy()}
             </CardGroup>
           </div>
-      </div>    
-      <div className="col-md-6">
+      </Col>    
+      <Col>
+      <Container>
+      <Row>
+        <Col>
       <div className="MyCart-container">
          <h4>My Cart</h4>
            <div className="MyCart-divider" />
              {listItemsInCart()}
            <div className="MyCart-divider" />
            <div className="MyCart-cost-summary">
-            <h4>Total + Shipping <span class="green-text"> ($10.99)</span></h4>
+            <h4>Total + Shipping <span className="green-text"> ($10.99)</span></h4>
             <h4>$ {cartTotal()}</h4>
-            <Link to="/paymentconfirmation"><button>
+            <Link to="/paymentconfirmation">
+              <button style={{marginRight: "39px"}}>
               Pay Now
             </button>
             </Link>
           </div>
       </div>
-    </div>
-    </div>
+      </Col>
+      </Row>
+      <Row>
+        <Col>
+          <ShopCheckoutForm />
+        </Col>
+      </Row>
+      </Container>
+    </Col>
+    </Row>
     );
   };
