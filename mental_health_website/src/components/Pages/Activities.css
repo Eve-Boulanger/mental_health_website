@@ -3,6 +3,7 @@
     text-align: center;
     font-size: larger;
     height: fit-content;
+    max-height: fit-content;
   }
   
   .header-text{
