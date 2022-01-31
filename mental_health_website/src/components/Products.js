@@ -10,19 +10,19 @@ import hat3 from "./Pages/images/hat3.JPG";
 
 
 const items = [
-    { id:1, name:"Patch", price:5.99, 
+    { id:1, name:"Patch", 
       stock: 100, cart: false,
       imgPath1: patch1,  
       imgPath2: patch2,
       imgPath3: patch3
     },
-    { id:2, name:"Pin", price:7.99,
+    { id:2, name:"Pin",
       stock: 100, cart: false,
       imgPath1: pin1,  
       imgPath2: pin2,
       imgPath3: pin3
     },
-    { id:3, name:"Hat", price:10.99,
+    { id:3, name:"Hat",
       stock: 100, cart: false,
       imgPath1: hat1,  
       imgPath2: hat2,

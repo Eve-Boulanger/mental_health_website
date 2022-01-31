@@ -1,94 +1,98 @@
-import React from "react";
+import React, { useState } from "react";
+import { CartItem } from "./CartItem";
+import "./MyCart.css";
+import {Link} from "react-router-dom";
+import items from "./Products";
+import { Card, CardGroup, Carousel, Image } from "react-bootstrap";
 import { Button } from "react-bootstrap";
-import { Card, CardGroup, Carousel } from "react-bootstrap";
-import { Image } from "react-bootstrap";
-import ShopCouterButton from "./ShopCounterButton";
-import ShopCounter from "./ShopCounter";
-
-import pin2 from "./Pages/images/pin1.JPG";
-import pin1 from "./Pages/images/pin2.JPG";
-import pin3 from "./Pages/images/pin3.JPG";
-import pin4 from "./Pages/images/pin4.JPG";
-import patch2 from "./Pages/images/patch1.JPG";
-import patch1 from "./Pages/images/patch2.JPG";
-import patch3 from "./Pages/images/patch3.JPG";
-import hat1 from "./Pages/images/hat1.JPG";
-import hat2 from "./Pages/images/hat2.JPG";
-import hat3 from "./Pages/images/hat3.JPG";
-import hat4 from "./Pages/images/hat4.JPG";
-
+import teddy from './Pages/images/merch-teddy.JPG'
+import "./Pages/Support.css";
+import { Container, Row, Col } from "react-bootstrap";
 import "./ShopItems.css";
+import { MyCart } from "./MyCart";
 
 export const ShopItems = () => {
-    return(
-            <CardGroup className = "grid">
-            <Card className="text-center box">
-                <Carousel className="itemPics" interval="100000000000000">
-                    <Carousel.Item>
-                        <Card.Img as={Image} variant="top" src={patch1} />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Card.Img as={Image} variant="top" src={patch2}/>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Card.Img as={Image} variant="top" src={patch3}/>
-                    </Carousel.Item>
-                </Carousel>
-                <Card.Body>
-                    <Card.Title className = "titleCard">Patch</Card.Title>
-                    <div className = "counterStyle">
-                    <ShopCounter/>
-                    </div>
-                    <Button className="button" variant="dark">ADD TO CART</Button>
+  const [cart, setCart] = useState([])
+  const [count, setCount] = useState(0)
 
-                </Card.Body>
-            </Card>
-            <Card className="text-center box">
-                <Carousel className="itemPics" interval="100000000000000">
-                    <Carousel.Item>
-                        <Card.Img as={Image} variant="top" src={pin1}/>
-                    </Carousel.Item>
-                    <Carousel.Item >
-                        <Card.Img as={Image} variant="top" src={pin2}/>
-                    </Carousel.Item>
-                    <Carousel.Item >
-                        <Card.Img as={Image} variant="top" src={pin3}/>
-                    </Carousel.Item>
-                    <Carousel.Item >
-                        <Card.Img as={Image} variant="top" src={pin4}/>
-                    </Carousel.Item>
-                </Carousel>
-                <Card.Body>
-                    <Card.Title>Pin</Card.Title>
-                    <div className = "counterStyle">
-                    <ShopCounter/>
-                    </div>
-                    <Button className="button" variant="dark">ADD TO CART</Button>
-                </Card.Body>
-            </Card>
-            <Card className="text-center box">
-                <Carousel className="itemPics" interval="100000000000000">
-                    <Carousel.Item>
-                        <Card.Img as={Image} variant="top" src={hat1}/>
-                    </Carousel.Item>
-                    <Carousel.Item >
-                        <Card.Img as={Image} variant="top" src={hat2}/>
-                    </Carousel.Item>
-                    <Carousel.Item >
-                        <Card.Img as={Image} variant="top" src={hat3}/>
-                    </Carousel.Item>
-                    <Carousel.Item >
-                        <Card.Img as={Image} variant="top" src={hat4}/>
-                    </Carousel.Item>
-                </Carousel>
-                <Card.Body>
-                    <Card.Title>Hat</Card.Title>
-                    <div className = "counterStyle">
-                    <ShopCounter/>
-                    </div>
-                    <Button className="button" variant="dark">ADD TO CART</Button>
-                </Card.Body>
-            </Card>
-          </CardGroup>
+  const addToCart = (item) => {
+    setCart((currentCart) => [...currentCart, item]);
+  }
+
+  const removeFromCart = (item) => {
+    setCart((currentCart) => {
+      const indexOfItemToRemove = currentCart.findIndex((cartItem) => cartItem.id === item.id);
+
+      if (indexOfItemToRemove === -1) {
+        return currentCart;
+      }
+
+      return [
+        ...currentCart.slice(0, indexOfItemToRemove),
+        ...currentCart.slice(indexOfItemToRemove + 1),
+      ];
+    });
+  }
+
+  const listItemsToBuy = () => items.map((item) => (
+    <Card className="text-center box"  key={item.id}>
+      <Carousel className="itemPics" interval="100000000000000">
+          <Carousel.Item>
+              <Card.Img className="itemPics" as={Image} variant="top" src={item.imgPath1}/>
+          </Carousel.Item>
+          <Carousel.Item >
+              <Card.Img className="itemPics" as={Image} variant="top" src={item.imgPath2}/>
+          </Carousel.Item>
+          <Carousel.Item >
+              <Card.Img className="itemPics" as={Image} variant="top" src={item.imgPath3}/>
+          </Carousel.Item>
+      </Carousel>
+      <Card.Body>
+          <Card.Title className = "titleCard">{item.name}</Card.Title>
+          <div className = "counterStyle">
+          <div className = "ButtonCounterContainer">
+            <Button variant="light" sign="+" onClick={() => {addToCart(item); setCount(count + 1)}} >+</Button>
+            &nbsp;&nbsp;&nbsp;{amountOfItems(item.id)}&nbsp;&nbsp;&nbsp;
+            <Button sign="-" variant="light" onClick={() => {removeFromCart(item); setCount(count - 1)}} >-</Button>
+          </div>
+          </div>
+          <Button className="button" variant="dark" onClick={() => addToCart(item)}>ADD TO CART</Button>
+      </Card.Body>
+    </Card>
+  ));
+
+  const checkoutPageDirection = () => (
+    <div className = "checkoutButton">
+     <Link to= "/mycart">
+       <button>
+         CHECKOUT
+       </button>
+     </Link>
+     </div>
+  );
+
+  const amountOfItems = (id) => cart.filter((item) => item.id === id).length;
+    return (
+      <div>
+      <Row>  
+      <Col>
+        <h1><img src={teddy} alt="teddy" width={168} height={100}/> SHOP.</h1>
+          <div className="items-container">
+            <CardGroup className = "grid" data-interval="false">
+              {listItemsToBuy()}
+            </CardGroup>
+          </div> 
+      </Col>
+      <Col>
+      <Container>
+      <Row>
+        <Col>
+        {checkoutPageDirection()}
+        </Col>
+      </Row>
+      </Container>
+    </Col>
+    </Row>
+    </div>
     );
 };

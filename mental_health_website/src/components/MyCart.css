@@ -2,14 +2,14 @@
 
 .MyCart-container{
     position: relative;
-    top: 244px;
+    top: 20px;
     height: 280px;
-    width: 40vw;
+    width: 85vw;
     background: #ffff;
     border-radius: 4px;
     padding: 10px;
     font-family: 'Montserrat', sans-serif;
-    left: 50px;
+    left: 80px;
 }
 
 .MyCart-divider{
@@ -31,4 +31,22 @@
 
 .items-container {
     margin-bottom: -100px;
+}
+
+.itemPics {
+    height: 250px;
+}
+
+.checkOutButton {
+    left: 1000px;
+}
+
+.row button{
+    top: 10px;
+    margin: 5px;
+}
+
+.shopCheckoutForm {
+    position: relative;
+    left: 0px;
 }

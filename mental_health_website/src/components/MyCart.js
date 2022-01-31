@@ -8,8 +8,8 @@ import { Button } from "react-bootstrap";
 import teddy from './Pages/images/merch-teddy.JPG'
 import "./Pages/Support.css";
 import './ShopItems.css'
-import ShopCheckoutForm from './ShopCheckoutForm'
 import { Container, Row, Col } from "react-bootstrap";
+import ShopCheckoutForm from './Pages/ShopCheckoutForm';
 
 
 export const MyCart = () => {
@@ -35,34 +35,6 @@ export const MyCart = () => {
     });
   }
 
-  const listItemsToBuy = () => items.map((item) => (
-    <Card className="text-center box" data-interval="false"  key={item.id}>
-      <Carousel className="itemPics" data-interval="false">
-          <Carousel.Item>
-              <Card.Img className="itemPics" as={Image} variant="top" src={item.imgPath1}/>
-          </Carousel.Item>
-          <Carousel.Item >
-              <Card.Img className="itemPics" as={Image} variant="top" src={item.imgPath2}/>
-          </Carousel.Item>
-          <Carousel.Item >
-              <Card.Img className="itemPics" as={Image} variant="top" src={item.imgPath3}/>
-          </Carousel.Item>
-      </Carousel>
-      <Card.Body>
-          <Card.Title className = "titleCard">{item.name}</Card.Title>
-          <div className = "counterStyle">
-          <div className = "ButtonCounterContainer">
-            <Button variant="light" sign="+" onClick={() => {addToCart(item); setCount(count + 1)}} >+</Button>
-            &nbsp;&nbsp;&nbsp;{amountOfItems(item.id)}&nbsp;&nbsp;&nbsp;
-            <Button sign="-" variant="light" onClick={() => {removeFromCart(item); setCount(count - 1)}} >-</Button>
-          </div>
-          </div>
-          <Button className="button" variant="dark" onClick={() => addToCart(item)}>ADD TO CART</Button>
-
-      </Card.Body>
-    </Card>
-  ));
-
   const amountOfItems = (id) => cart.filter((item) => item.id === id).length;
   
   const listItemsInCart = () => items.map((item) => 
@@ -81,43 +53,20 @@ export const MyCart = () => {
 
 
     return (
-      <Row>  
-      <Col>
-        <h1><img src={teddy} alt="teddy" width={168} height={100}/> SHOP.</h1>
-          <div className="items-container">
-            <CardGroup className = "grid" data-interval="false">
-              {listItemsToBuy()}
-            </CardGroup>
-          </div>
-      </Col>    
-      <Col>
-      <Container>
-      <Row>
-        <Col>
+      <div>
       <div className="MyCart-container">
          <h4>My Cart</h4>
            <div className="MyCart-divider" />
              {listItemsInCart()}
            <div className="MyCart-divider" />
            <div className="MyCart-cost-summary">
-            <h4>Total + Shipping <span className="green-text"> ($10.99)</span></h4>
-            <h4>$ {cartTotal()}</h4>
-            <Link to="/paymentconfirmation">
-              <button style={{marginRight: "39px"}}>
-              Pay Now
-            </button>
-            </Link>
+            <h4>Total + Shipping</h4>
+            <h4><span className="green-text"> $ {cartTotal()}  </span></h4>
+          </div>
+          <div className = "shopCheckoutForm">
+            <ShopCheckoutForm />
           </div>
       </div>
-      </Col>
-      </Row>
-      <Row>
-        <Col>
-          <ShopCheckoutForm />
-        </Col>
-      </Row>
-      </Container>
-    </Col>
-    </Row>
+    </div>
     );
-  };
+};

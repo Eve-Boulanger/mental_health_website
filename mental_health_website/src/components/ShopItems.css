@@ -1,5 +1,5 @@
 .grid {
-    width: 40vw;
+    width: 90vw;
     border-radius: 0px;
  }
 
@@ -10,14 +10,14 @@
     padding-top: 5px;
     position: relative;
     left: 70px;
-    top: 225px;
+    top: 100px;
     border-radius: 0px;
 }
 
 .itemPics
 {
-    max-height: 50%;
-    min-height: 50%;
+    max-height: 45%;
+    min-height: 45%;
     position: center;
     border-radius: 0px;
 }
@@ -37,4 +37,20 @@
 .carousel-control-next-icon {
     filter: invert(1);
     background-color: black;
+}
+
+.checkoutButton button{
+    position: relative;
+    top: 240px;
+    left: 42%;
+    padding-left: 6.5px;
+    padding-bottom: 2.5px;
+    width: 180px;
+    height: 50px;
+    font-size: 28px;
+    color: white;
+    font-weight: normal;
+    background-color: black;
+    border-radius: 5px;
+    border-width: 0px;
 }

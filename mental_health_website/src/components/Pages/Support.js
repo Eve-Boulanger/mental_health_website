@@ -3,6 +3,7 @@ import DonateTabs from "../DonateTabs";
 import {MyCart} from "../MyCart";
 import "./Support.css";
 import { Container, Row } from "react-bootstrap";
+import { ShopItems } from "../ShopItems";
 
 export const Support = () => {
   return (
@@ -48,7 +49,7 @@ export const Support = () => {
       </Row>
 
       <div className="merch">
-        <MyCart />
+        <ShopItems/>
       </div>
     </Container>
   );

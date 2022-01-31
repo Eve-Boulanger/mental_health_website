@@ -1,23 +1,16 @@
-.row>*{
-    left: auto;
-    right: auto;
-    width: auto;
-}
-
 .shop-form-container{
-    position:absolute;
-    display: flex;
-    width: 40vw;
+    position: relative;
+    width: 85vw;
     padding: 20px 20px 90px;
     background: cadetblue;
-    margin-top: 275px;
-    margin-left: 50px;
+    margin-top: 50px;
+    margin-left: 0px;
 }
 
 .shop-form-input {
     display: block;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 300px;
     outline: none;
     border-radius: 2px;
     height: 35px;
@@ -28,7 +21,7 @@
 .shop-form-input-short{
     display: inline-block;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 300px;
     outline: none;
     border-radius: 2px;
     height: 35px;
@@ -48,8 +41,8 @@
     font-style: italic;
 }
 
-.checkout-button{
-    position: absolute;
+.checkout-button {
+    position: relative;
     border-radius: 3px;
     background: black;
     outline: none;
@@ -60,6 +53,6 @@
     display: block;
     width: 150px;
     height: 50px;
-    top: 175px;
-    left: 40%;
+    top: 50px;
+    left: 500px;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import './ShopCheckoutForm.css';
 import { Row, Col } from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 export const ShopCheckoutForm = () => {
     return (
@@ -42,7 +43,7 @@ export const ShopCheckoutForm = () => {
                             type="text"
                             name="address"
                             className="shop-form-input"
-                            placeholder="Address *"
+                            placeholder="Street Address *"
                         />
 
                         <input
@@ -73,9 +74,11 @@ export const ShopCheckoutForm = () => {
                             placeholder="Zip/Postal Code *"
                         />
                 </div>
+                <Link to="/paymentconfirmation">
                 <button className="checkout-button" type="submit">
                     PLACE ORDER
-                </button>                
+                </button>
+                </Link>             
             </div>
             </Col>
         </Row>
