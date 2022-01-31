@@ -6,7 +6,7 @@ export const Activities = () => {
     <div className="activities-page">
       <div className="practices-container">
         <div className="header-text">
-          <h3>Mental Health Practices</h3>
+          <h1>Mental Health Practices</h1>
           <p>There are many different techniques and practices that can be 
             used to improve our overall mental health and well-being. 
             Here are some activities you can start with!</p>
@@ -35,7 +35,7 @@ export const Activities = () => {
 
       <div className="meditation-container">
         <div className="header-text">
-          <h3>Meditation Techniques</h3>
+          <h1>Meditation Techniques</h1>
           <p>Meditation can help you achieve a mentally clear
             and emotionally calm and stable state. Some guided 
             meditation videos to help you get started with this 
@@ -46,33 +46,33 @@ export const Activities = () => {
           
         <div className="body">
           <div className="meditation-card">
-            <p>The video below focuses on Mindfulness Meditation to help you be present in your life.</p>
-            <iframe width="250" height="150" src="https://www.youtube.com/embed/ZToicYcHIOU" title="YouTube video player" frameborder="0"></iframe>
+            <iframe width="80%" height="70%" src="https://www.youtube.com/embed/ZToicYcHIOU" title="YouTube video player" frameborder="0"></iframe>
+            <p>Video 1: Daily Calm Mindfulness Meditation [approx.10 minutes]</p>
           </div>
 
           <div className="meditation-card">
-            <p>The meditation video below is intended to help you learn how to deal with stress by reframing it.</p>
-          <iframe width="250" height="150" src="https://www.youtube.com/embed/sG7DBA-mgFY" title="YouTube video player" frameborder="0" ></iframe>
+            <iframe width="80%" height="70%" src="https://www.youtube.com/embed/sG7DBA-mgFY" title="YouTube video player" frameborder="0" ></iframe>
+            <p>Video 2: Reframe Stress Meditation [approx. 10 minutes]</p>
           </div>
 
           <div className="meditation-card" >
-            <p>This video can help declutter all the thoughts in your brain by focusing on resetting the body and mind.</p>
-          <iframe width="250" height="150" src="https://www.youtube.com/embed/QHkXvPq2pQE" title="YouTube video player" frameborder="0"></iframe>
+            <iframe width="80%" height="70%" src="https://www.youtube.com/embed/QHkXvPq2pQE" title="YouTube video player" frameborder="0"></iframe>
+            <p>Video 3: Decompress Your Body and Mind [approx. 10 minutes]</p>
           </div>
         </div>
       </div>
 
       <div className="quizzes-container">
         <div className="header-text">
-          <h3>Interactive Quizzes</h3>
+          <h1>Interactive Quizzes</h1>
           <p>Here are some quizzes you can take to help you learn more about mental health, its practices and its importance!</p>
         </div>
-        <div className="body">
-          <div className="activities-card">
+        <div className="quizzes-body">
+          <div className="quizzes-card">
             <a href="https://www.cdc.gov/mentalhealth/quiz/index.htm">CDC - Mental Health Quiz</a>
             <p>Take this quiz to see if you can distinguish between myths and facts about mental health!</p>
           </div>
-          <div className="activities-card">
+          <div className="quizzes-card">
             <a href="https://www.sja.org.uk/course-information/guidance-and-help/mental-health-resources/mental-health-quiz/#quiz">St John Ambulance - Mental Health Quiz</a>
             <p>Take this quiz to test your knowledge about mental health topics!</p>          
           </div>
