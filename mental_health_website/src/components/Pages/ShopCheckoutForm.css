@@ -1,6 +1,7 @@
+@media screen {
 .shop-form-container{
     position: relative;
-    width: 85vw;
+    width: auto;
     padding: 20px 20px 90px;
     background: cadetblue;
     margin-top: 50px;
@@ -55,4 +56,5 @@
     height: 50px;
     top: 50px;
     left: 500px;
+}
 }

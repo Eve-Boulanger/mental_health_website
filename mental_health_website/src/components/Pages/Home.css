@@ -43,7 +43,7 @@
     box-sizing: border-box;
     height: 25px;
     left: 200px;
-    top: 125px;
+    top: 168px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -57,7 +57,7 @@
     position: relative;
     padding-left: 200px;
     width: 85%;
-    top: 145px;
+    top: 188px;
     font-family: 'IBM Plex Sans';
     font-size: 18px;
 }
@@ -117,7 +117,7 @@
     z-index: -1;
 }
 .middleAndBackTextHome h2 {
-    padding-top: 85px;
+    padding-top: 77px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
@@ -153,6 +153,7 @@
 .leftTextHome h2 {
     font-size: 25px;
     padding-top: 10px;
+    font-weight: bold;
 }
 .leftTextHome p{
     padding-top: 3px;
@@ -185,6 +186,7 @@
 .rightTextHome h2 {
     font-size: 25px;
     padding-top: 10px;
+    font-weight: bold;
 }
 .rightTextHome p{
     padding-top: 3px;

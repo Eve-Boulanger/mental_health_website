@@ -11,14 +11,14 @@ export const Home = () => {
         <h1><span class = "blueGrey">PRIORITIZE</span><span class = "darkBlue"> MENTAL HEALTH.</span></h1> 
         <h1><span class = "blueGrey">BREAK THE</span><span class = "darkBlue"> STIGMA.</span></h1>
         <h1><span class = "blueGrey">ASK FOR</span><span class = "darkBlue"> HELP.</span></h1> 
-        <h1><span class = "blueGrey">TAKE</span><span class = "darkBlue"> CONTROL.</span></h1>
+        <h1><span class = "blueGrey">PROGRESS</span><span class = "darkBlue"> OVER PERFECTION.</span></h1>
       </div>
       <div class = "headerImg">
         <img src={brain} alt="brain exercise"/>
       </div>
       <div class = "aboutContainerHome">
         <h2>About</h2>
-        <p>Welcome to "NAME"! This page gives students a platform to work on their mental health. Mental health is just as important as physical health. If you have the flu, you see a doctor, so if you are feeling mentally unwell you seek professional help no matter how big or small the problem. Practicing mental health is important for everyone, just as we exercise our bodies we need to exercise our minds.</p>
+        <p>Welcome to YouWaterloo! This page gives students a platform to work on their mental health. Mental health is just as important as physical health. If you have the flu, you see a doctor, so if you are feeling mentally unwell you seek professional help no matter how big or small the problem. Practicing mental health is important for everyone, just as we exercise our bodies we need to exercise our minds.</p>
         <p><span class = "bold">This website was created to promote positive mental health practices, raise awareness about the topic, and fundraise for mental health research and for students who are in need of mental health resources beyond those that are free through the university.</span> Hats, patches and pins are being provided by the Macartney Foundation. The Macartney accesories were created by a University of Waterloo student who lost his father at a young age due to a mental illness. These accessories are a symbol that you are open to talk about mental health or that you need someone to talk to. Wearing these symbols supports positive mental health in the community and starts the conversation. Break down the stigma and take control of mental health by donating, practicing the outlined activities or just reading up on the subject.</p>
       </div>
       <div class = "donateButtonHome">

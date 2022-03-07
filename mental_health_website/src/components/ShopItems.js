@@ -51,9 +51,9 @@ export const ShopItems = () => {
           <Card.Title className = "titleCard">{item.name}</Card.Title>
           <div className = "counterStyle">
           <div className = "ButtonCounterContainer">
-            <Button variant="light" sign="+" onClick={() => {addToCart(item); setCount(count + 1)}} >+</Button>
-            &nbsp;&nbsp;&nbsp;{amountOfItems(item.id)}&nbsp;&nbsp;&nbsp;
             <Button sign="-" variant="light" onClick={() => {removeFromCart(item); setCount(count - 1)}} >-</Button>
+            &nbsp;&nbsp;&nbsp;{amountOfItems(item.id)}&nbsp;&nbsp;&nbsp;
+            <Button variant="light" sign="+" onClick={() => {addToCart(item); setCount(count + 1)}} >+</Button>
           </div>
           </div>
           <Button className="button" variant="dark" onClick={() => addToCart(item)}>ADD TO CART</Button>

@@ -1,3 +1,4 @@
+@media screen {
 .grid {
     width: 90vw;
     border-radius: 0px;
@@ -43,7 +44,6 @@
     position: relative;
     top: 240px;
     left: 42%;
-    padding-left: 6.5px;
     padding-bottom: 2.5px;
     width: 180px;
     height: 50px;
@@ -53,4 +53,5 @@
     background-color: black;
     border-radius: 5px;
     border-width: 0px;
+}
 }

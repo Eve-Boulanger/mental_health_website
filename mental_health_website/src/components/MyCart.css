@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-
+@media screen {
 .MyCart-container{
     position: relative;
     top: 20px;
     height: 280px;
-    width: 85vw;
+    width: 85%;
     background: #ffff;
     border-radius: 4px;
-    padding: 10px;
     font-family: 'Montserrat', sans-serif;
     left: 80px;
 }
@@ -49,4 +48,5 @@
 .shopCheckoutForm {
     position: relative;
     left: 0px;
+}
 }
