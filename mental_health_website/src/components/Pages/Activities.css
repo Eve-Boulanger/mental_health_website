@@ -131,10 +131,14 @@
     color: white;
   }
 
-  .quizzes-card a,h3{
+  .quizzes-card a{
     color: white;
     font-weight: bold;
     font-size: medium;
+  }
+
+  .quizzes-card h3{
+    font-weight: bold;
   }
 
   
