@@ -31,10 +31,10 @@
   }
   
   .practices-container a{
-    color: black;
+    color: #168AAD;
     font-weight: bold;
     font-family: 'Montserrat';
-    padding: 3px;
+    font-size: medium;
   }
 
   .body{
@@ -56,6 +56,14 @@
     font-size:large;
   }
   
+  .activities-card h3{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    padding: 3px;
+    max-height: 12px;
+  }
+
   .meditation-container {
     background-color: #71BCBE;
     justify-content: center;
@@ -110,7 +118,7 @@
     color: white;
     background-color: #001C55;
     font-family: 'Montserrat';
-    font-size: larger;
+    font-size: large;
     justify-content: space-evenly;
     display: flex;
     flex-direction: column;
@@ -125,6 +133,11 @@
 
   .quizzes-card a{
     color: white;
+    font-weight: bold;
+    font-size: medium;
+  }
+
+  .quizzes-card h3{
     font-weight: bold;
   }
 
