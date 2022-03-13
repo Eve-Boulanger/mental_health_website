@@ -1,5 +1,6 @@
 import React from "react";
 import "./Activities.css";
+import { BsChevronCompactRight } from 'react-icons/bs'
 
 export const Activities = () => {
   return (
@@ -15,17 +16,20 @@ export const Activities = () => {
         
         <div className="body">
           <div className="activities-card">
-            <a href="https://www.nytimes.com/guides/well/how-to-meditate">New York Times - Guide to Meditation</a>
-            <p>This article has lots of information and many different guided audio meditations to try!</p>
+            <h3>New York Times - Guide to Meditation</h3>
+            <a href="https://www.nytimes.com/guides/well/how-to-meditate" target="_blank" rel="noreferrer">See More<BsChevronCompactRight/></a>
+            <p>This article has lots of information about what meditation is and also has many different guided audio meditations to try!</p>
           </div>
 
           <div className="activities-card">
-            <a href="https://www.healthline.com/health/how-to-keep-mood-journal#How-to-keep-a-mood-journal">Mood Journal Tutorial</a>
+            <h3>Mood Journal Tutorial</h3>
+            <a href="https://www.healthline.com/health/how-to-keep-mood-journal#How-to-keep-a-mood-journal" target="_blank" rel="noreferrer">See More<BsChevronCompactRight/></a>
             <p>A mood journal is a great way to help you process and understand your emotions. This article gives instructions on how to start one!</p>
           </div>
 
           <div className="activities-card">
-            <a href="https://www.mhanational.org/31-tips-boost-your-mental-health">31 Tips to Boost Your Mental Health</a>
+            <h3>31 Tips to Boost Your Mental Health</h3>
+            <a href="https://www.mhanational.org/31-tips-boost-your-mental-health" target="_blank" rel="noreferrer">See More<BsChevronCompactRight/></a>
             <p>Not all suggested mental health practices will work for you so here's a quick list of various things you
               can try to help boost your mood!
             </p>
@@ -69,11 +73,13 @@ export const Activities = () => {
         </div>
         <div className="quizzes-body">
           <div className="quizzes-card">
-            <a href="https://www.cdc.gov/mentalhealth/quiz/index.htm">CDC - Mental Health Quiz</a>
+            <h3>CDC - Mental Health Quiz</h3>
+            <a href="https://www.cdc.gov/mentalhealth/quiz/index.htm" target="_blank" rel="noreferrer">Take Quiz<BsChevronCompactRight/></a>
             <p>Take this quiz to see if you can distinguish between myths and facts about mental health!</p>
           </div>
           <div className="quizzes-card">
-            <a href="https://www.sja.org.uk/course-information/guidance-and-help/mental-health-resources/mental-health-quiz/#quiz">St John Ambulance - Mental Health Quiz</a>
+            <h3>St John Ambulance - Mental Health Quiz</h3>
+            <a href="https://www.sja.org.uk/course-information/guidance-and-help/mental-health-resources/mental-health-quiz/#quiz" target="_blank" rel="noreferrer">Take Quiz<BsChevronCompactRight/></a>
             <p>Take this quiz to test your knowledge about mental health topics!</p>          
           </div>
         </div>
