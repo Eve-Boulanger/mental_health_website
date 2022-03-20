@@ -20,7 +20,7 @@
         margin-top: 15vh;
     }
     .interac-etransfer {
-        min-height: 0 !important;
+        min-height: 1 !important;
     }
 }
 
