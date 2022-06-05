@@ -8,8 +8,7 @@ export const Activities = () => {
       <div className="practices-container">
         <div className="header-text">
           <h1>Mental Health Practices</h1>
-          <p>There are many different techniques and practices that can be 
-            used to improve our overall mental health and well-being. 
+          <p>There are many different techniques and practices that can improve our overall mental health and well-being. 
             Here are some activities you can start with!</p>
         </div>
           
@@ -42,25 +41,24 @@ export const Activities = () => {
           <h1>Meditation Techniques</h1>
           <p>Meditation can help you achieve a mentally clear
             and emotionally calm and stable state. Some guided 
-            meditation videos to help you get started with this 
-            practice can be found below. Each video has a different 
+            meditation videos to help you get started can be found below. Each video has a different 
             focus, depending on your need, but all are 10 minutes
-            long so it can be easily integrated into your daily routine!</p>
+            long so they can be easily integrated into your daily routine!</p>
         </div>
           
         <div className="body">
           <div className="meditation-card">
-            <iframe width="80%" height="70%" src="https://www.youtube.com/embed/ZToicYcHIOU" title="YouTube video player" frameborder="0"></iframe>
+            <iframe src="https://www.youtube.com/embed/ZToicYcHIOU" title="YouTube video player" frameborder="0"></iframe>
             <p>Video 1: Daily Calm Mindfulness Meditation [approx.10 minutes]</p>
           </div>
 
           <div className="meditation-card">
-            <iframe width="80%" height="70%" src="https://www.youtube.com/embed/sG7DBA-mgFY" title="YouTube video player" frameborder="0" ></iframe>
+            <iframe src="https://www.youtube.com/embed/sG7DBA-mgFY" title="YouTube video player" frameborder="0" ></iframe>
             <p>Video 2: Reframe Stress Meditation [approx. 10 minutes]</p>
           </div>
 
           <div className="meditation-card" >
-            <iframe width="80%" height="70%" src="https://www.youtube.com/embed/QHkXvPq2pQE" title="YouTube video player" frameborder="0"></iframe>
+            <iframe src="https://www.youtube.com/embed/QHkXvPq2pQE" title="YouTube video player" frameborder="0"></iframe>
             <p>Video 3: Decompress Your Body and Mind [approx. 10 minutes]</p>
           </div>
         </div>
@@ -71,11 +69,11 @@ export const Activities = () => {
           <h1>Interactive Quizzes</h1>
           <p>Here are some quizzes you can take to help you learn more about mental health, its practices and its importance!</p>
         </div>
-        <div className="quizzes-body">
+        <div className="body">
           <div className="quizzes-card">
             <h3>CDC - Mental Health Quiz</h3>
             <a href="https://www.cdc.gov/mentalhealth/quiz/index.htm" target="_blank" rel="noreferrer">Take Quiz<BsChevronCompactRight/></a>
-            <p>Take this quiz to see if you can distinguish between myths and facts about mental health!</p>
+            <p>Take this quiz to see if you can distinguish between mental health myths and facts!</p>
           </div>
           <div className="quizzes-card">
             <h3>St John Ambulance - Mental Health Quiz</h3>
