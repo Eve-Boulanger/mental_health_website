@@ -7,8 +7,8 @@
   }
   
   .header-text{
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 5%;
+    padding-right: 5%;
     font-family: 'IBM Plex Sans';
     font-weight:600;
   }
@@ -21,13 +21,12 @@
     background-color: #B8E6AE;
     justify-content: center;
     color: #4F8F66;
-    padding-bottom: 5vh;
-    padding-top: 5vh;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
   }
 
   .practices-container p{
     color: black;
-    padding: 3px;
   }
   
   .practices-container a{
@@ -43,69 +42,66 @@
   }
   
   .activities-card{
-    width: 30rem;
-    height: 15rem;
+    width: 25vw;
+    height: fit-content;
     border-radius: 10px;
     color: black;
     background-color: #76C893;
-    margin: 10px;
-    justify-content: space-evenly;
-    display:flex;
-    flex-direction: column;
     font-family: 'Montserrat';
     font-size:large;
+    padding: 1rem 1rem;
   }
   
   .activities-card h3{
     color: black;
     font-weight: bold;
     font-size: larger;
-    padding: 3px;
-    max-height: 12px;
   }
 
   .meditation-container {
     background-color: #71BCBE;
     justify-content: center;
     color: #168AAD;
-    padding-bottom: 5vh;
-    padding-top: 5vh;
+    padding-top: 3vh;
   }
 
   .meditation-card{
-    width: 30rem;
-    height: 20rem;
+    width: 25vw;
+    height:fit-content;
     color: black;
-    margin: 0px;
     justify-content: center;
     display:flex;
     flex-direction: column;
     align-items: center;
+    padding: 1rem 1rem;
+  }
+
+  iframe {
+    width: 100%;
+    min-height: 20vh;
   }
 
   .meditation-card p{
     font-weight: bold;
-    padding-left: 10%;
-    padding-right: 10%;
   }
   
   .meditation-container p{
     color: black;
   }
 
+  /*
   .quizzes-body{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
-  }
+  } */
   
   .quizzes-container {
     background-color: #168AAD;
     justify-content: center;
     color:#001C55;
-    padding-bottom: 5vh;
-    padding-top: 5vh;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
   }
 
   .quizzes-container p {
@@ -113,18 +109,17 @@
   }
 
   .quizzes-card{
-    width: 50rem;
-    height: 15rem;
+    width: 40vw;
+    height: fit-content;
     color: white;
     background-color: #001C55;
     font-family: 'Montserrat';
     font-size: large;
-    justify-content: space-evenly;
-    display: flex;
+    display:flex;
     flex-direction: column;
-    margin: 2rem;
-    padding-left: 5%;
-    padding-right: 5%;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 1rem 1rem;
   }
   
   .quizzes-card p {
