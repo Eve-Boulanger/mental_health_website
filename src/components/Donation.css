@@ -17,6 +17,11 @@
     line-height: 18px;
 }
 
+.donate-now-btn {
+    margin-left: 12.5vw;
+    width: 25vw;
+}
+
 .form-success {
     text-align: center;
     font-size: 24px;

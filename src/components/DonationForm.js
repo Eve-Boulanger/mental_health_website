@@ -220,10 +220,12 @@ const DonationForm = ({submitDonation}) => {
                             required
                         />
                     </div>
+                    <div className = "donate-now-btn">
+                        <button className="form-input-btn" type="submit">
+                            DONATE NOW
+                        </button>
+                    </div>
                 </div>
-                <button className="form-input-btn" type="submit">
-                    DONATE NOW
-                </button>
             </form>
         </div>
     )
