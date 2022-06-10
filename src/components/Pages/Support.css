@@ -65,7 +65,7 @@ html {
 .donate h1 {
     position: relative;
     height: 88px;
-    left: 70px;
+    left: 50px;
     top: 15vh;
     font-family: 'Source Serif Pro', serif;
     font-weight: 900;
@@ -75,9 +75,9 @@ html {
 
 .content-text {
     position: relative;
-    top: 275px;
+    top: 130px;
     margin-bottom: 70px;
-    padding-left: 70px;
+    padding-left: 50px;
     padding-right: 20px;
 }
 
