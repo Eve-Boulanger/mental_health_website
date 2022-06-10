@@ -36,7 +36,7 @@ export const ShopItems = () => {
 
   const listItemsToBuy = () => items.map((item) => (
     <Card className="text-center box"  key={item.id}>
-      <Carousel className="itemPics" interval="100000000000000">
+      <Carousel className="allPics" interval="100000000000000">
           <Carousel.Item>
               <Card.Img className="itemPics" as={Image} variant="top" src={item.imgPath1}/>
           </Carousel.Item>
@@ -73,26 +73,15 @@ export const ShopItems = () => {
 
   const amountOfItems = (id) => cart.filter((item) => item.id === id).length;
     return (
-      <div>
-      <Row>  
-      <Col>
-        <h1><img src={teddy} alt="teddy" width={168} height={100}/> SHOP.</h1>
-          <div className="items-container">
+      <div className = "supportBottomContainer">
             <CardGroup className = "grid" data-interval="false">
               {listItemsToBuy()}
-            </CardGroup>
-          </div> 
-      </Col>
-      <Col>
-      <Container>
-      <Row>
-        <Col>
-        {checkoutPageDirection()}
-        </Col>
-      </Row>
-      </Container>
-    </Col>
-    </Row>
-    </div>
+            </CardGroup> 
+            <div className = "teddy">
+              <h1><img src={teddy} alt="teddy" width={168} height={100}/> SHOP.</h1>
+            </div>
+          {checkoutPageDirection()}
+      </div>
+
     );
 };

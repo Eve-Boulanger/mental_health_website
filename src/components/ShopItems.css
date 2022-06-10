@@ -1,18 +1,27 @@
 @media screen {
-.grid {
-    width: 90vw;
-    border-radius: 0px;
- }
+.supportBottomContainer {
+    width: screen;
+}
+
+.teddy {
+    position: absolute;
+    top: 83vw;
+}
 
 .box {
+    border-radius: 0px;
     margin-right: 10px;
     padding-right: 5px;
     padding-left: 5px;
     padding-top: 5px;
     position: relative;
     left: 70px;
-    top: 100px;
+    top: 180px;
     border-radius: 0px;
+}
+
+.grid {
+    width: 89vw;
 }
 
 .itemPics
@@ -42,8 +51,8 @@
 
 .checkoutButton button{
     position: relative;
-    top: 240px;
-    left: 42%;
+    top: 225px;
+    left: 42.5vw;
     padding-bottom: 2.5px;
     width: 180px;
     height: 50px;
