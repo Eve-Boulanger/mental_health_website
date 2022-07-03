@@ -42,8 +42,7 @@
   }
   
   .activities-card{
-    width: 25vw;
-    height: fit-content;
+    width: 30vw;
     border-radius: 10px;
     color: black;
     background-color: #76C893;
@@ -55,7 +54,7 @@
   .activities-card h3{
     color: black;
     font-weight: bold;
-    font-size: larger;
+    font-size: large;
   }
 
   .meditation-container {
@@ -66,7 +65,7 @@
   }
 
   .meditation-card{
-    width: 25vw;
+    width: 30vw;
     height:fit-content;
     color: black;
     justify-content: center;
@@ -78,7 +77,8 @@
 
   iframe {
     width: 100%;
-    min-height: 20vh;
+    min-height: 25vh;
+    border-radius: 10px;
   }
 
   .meditation-card p{
@@ -89,13 +89,6 @@
     color: black;
   }
 
-  /*
-  .quizzes-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  } */
-  
   .quizzes-container {
     background-color: #168AAD;
     justify-content: center;
@@ -109,8 +102,8 @@
   }
 
   .quizzes-card{
+    border-radius: 10px;
     width: 40vw;
-    height: fit-content;
     color: white;
     background-color: #001C55;
     font-family: 'Montserrat';

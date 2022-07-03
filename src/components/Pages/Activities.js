@@ -15,9 +15,9 @@ export const Activities = () => {
         
         <div className="body">
           <div className="activities-card">
-            <h3>New York Times - Guide to Meditation</h3>
+            <h3>Guide to Meditation</h3>
             <a href="https://www.nytimes.com/guides/well/how-to-meditate" target="_blank" rel="noreferrer">See More<BsChevronCompactRight/></a>
-            <p>This article has lots of information about what meditation is and also has many different guided audio meditations to try!</p>
+            <p>This New York Times article has lots of information about what meditation is and also has many different guided audio meditations to try!</p>
           </div>
 
           <div className="activities-card">
