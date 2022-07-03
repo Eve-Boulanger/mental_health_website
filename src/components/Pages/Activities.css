@@ -42,8 +42,7 @@
   }
   
   .activities-card{
-    width: 25vw;
-    height: fit-content;
+    width: 30vw;
     border-radius: 10px;
     color: black;
     background-color: #76C893;
@@ -55,7 +54,7 @@
   .activities-card h3{
     color: black;
     font-weight: bold;
-    font-size: larger;
+    font-size: large;
   }
 
   .meditation-container {
