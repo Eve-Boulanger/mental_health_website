@@ -1,5 +1,5 @@
 .secondRow {
-  background-color: #0E6BA8;
+  background-color: #6CB5CB;
   margin-top: -22px;
   height: 72em;
 }
@@ -12,7 +12,7 @@
   padding-top: 4vh;
   font-size: 47px;
   font-family: 'Source Serif Pro';
-  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  background: #00072D;
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -24,7 +24,7 @@
   text-align: center;
   max-width: 85em;
   margin: 0 auto;
-  color: white;
+  color: #00072D;
   font-size: 22px;
   font-family: 'IBM Plex Sans';
 }
@@ -34,7 +34,7 @@
   }
  
   .stat-info {
-    color: white;
+    color: #00072D;
     font-size: 22px;
     font-family: 'IBM Plex Sans';
   }
