@@ -1,5 +1,7 @@
 .thirdRow {
-    background-color: #0A2472;
+    background-color: #168AAD;
+    height: 71vw;
+    padding-left: 10px;
 }
 
 .grid-container-mf {
@@ -12,21 +14,47 @@
 .grid-item-mf {
     padding: 20px;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .title-sec {
-    background-color: black;
+    background-color: #6CB5CB;
     width: 25vw;
-    padding: 68px;
+    height: 64vw;
+    padding: 50px;
     margin: 0px;
 }
 
 .title-mf {
+    text-align: center;
     padding-top: 4vh;
     font-size: 47px;
     font-family: 'Source Serif Pro';
-    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);   
+    background: #00072D;   
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.black-title-mf {
+    padding-top: 4vh;
+    font-size: 47px;
+    font-family: 'Source Serif Pro';
+    background: #00072D;  
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.blue-title-mf {
+    padding-top: 4vh;
+    font-size: 47px;
+    font-family: 'Source Serif Pro';
+    background: #00072DA6;  
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -35,13 +63,14 @@
 }
 
 .container-mf {
-    background-color: rgb(5, 5, 41);
+    background-color: #6CB5CB78;
     width: 30vw;
-    padding: 68px;
+    height: 64vw;
+    padding: 20px 30px 20px 30px;
     margin: 0px;
     font-family: 'IBM Plex Sans';
     font-size: 28px;
-    color: white;
+    color: #00072D;
     text-align: left;
 }
 

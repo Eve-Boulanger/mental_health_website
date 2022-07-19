@@ -1,0 +1,93 @@
+.wrapperSuicidalThoughts {
+    background-color: #76C893;
+    height: 103em;
+  }
+  
+  .suicidal-thoughts-info-content {
+      padding-left: 7em;
+  }
+  
+  .dark-title-emg-h2 {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 73px;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    text-align: center;
+}
+
+  .dark-title-emg {
+    position: relative;
+    top: 3vw;
+    left: -4vw;
+    text-align: center;
+    background-color: #152104;
+    font-size: 47px;
+    font-family: 'Source Serif Pro';
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 78px;
+    /* identical to box height */
+
+    text-align: center;
+
+    background-color: #CDF9B2;
+  }
+
+  .useful-bullets-1 {
+    font-family: 'IBM Plex Sans';
+    font-size: 25px;
+    list-style-type: none;
+    position: relative;
+    font-size: 18px;
+    padding-left: 3vw;
+    width: 95%;
+  }
+  
+.container-box-1 {
+    position: relative;
+    background-color: #B8E6AE;
+    width: 100%;
+    top: 5vw;
+    left: -4vw;
+    height: 600px;
+}
+
+.container-box-2 {
+    position: relative;
+    background-color: #B8E6AE;
+    width: 100%;
+    top: 7vw;
+    padding-bottom: 1vw;
+    left: -4vw;
+}
+
+.info-title {
+    position: relative;
+    font-size: 28px;
+    padding-left: 3vw;
+}
+
+.useful-bullets-2 {
+    font-family: 'IBM Plex Sans';
+    font-size: 25px;
+    position: relative;
+    font-size: 18px;
+    padding-left: 4.5vw;
+    padding-bottom: 1vw;
+    width: 95%;
+}
+
+.subbullets-make-a-plan {
+    padding-left: 5vw;
+}

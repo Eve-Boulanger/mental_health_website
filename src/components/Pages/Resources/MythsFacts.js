@@ -7,7 +7,7 @@ export const MythsFacts = () => {
             <div className="grid-container-mf">
                 <div className="grid-item-mf">
                     <div className="title-sec">
-                        <h1 className="title-mf">Myths and Facts about Mental Health</h1>
+                        <h1><span className = "black-title-mf">Myths and Facts</span><span className = "blue-title-mf"> about Mental Health</span></h1>
                     </div>
                 </div>
                 <div className="grid-item-mf">
