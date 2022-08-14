@@ -1,6 +1,6 @@
 .wrapperSuicidalThoughts {
     background-color: #76C893;
-    height: 103em;
+    height: 98em;
   }
   
   .suicidal-thoughts-info-content {
@@ -8,10 +8,10 @@
   }
   
   .dark-title-emg-h2 {
-    font-family: 'IBM Plex Sans';
+    font-family: 'Source Serif Pro';
     font-style: normal;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 73px;
     padding-top: 1vw;
     padding-bottom: 1vw;
@@ -20,23 +20,17 @@
 
   .dark-title-emg {
     position: relative;
-    top: 3vw;
+    top: 2vw;
     left: -4vw;
     text-align: center;
     background-color: #152104;
-    font-size: 47px;
+    font-size: 35px;
     font-family: 'Source Serif Pro';
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
-    
-    font-family: 'Source Serif Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 47px;
-    line-height: 78px;
     /* identical to box height */
 
     text-align: center;
@@ -45,8 +39,9 @@
   }
 
   .useful-bullets-1 {
+    top: -20px;
     font-family: 'IBM Plex Sans';
-    font-size: 25px;
+    font-size: 20px;
     list-style-type: none;
     position: relative;
     font-size: 18px;
@@ -58,27 +53,30 @@
     position: relative;
     background-color: #B8E6AE;
     width: 100%;
-    top: 5vw;
+    top: 3vw;
     left: -4vw;
-    height: 600px;
+    height: 550px;
 }
 
 .container-box-2 {
     position: relative;
     background-color: #B8E6AE;
     width: 100%;
-    top: 7vw;
+    top: 6vw;
     padding-bottom: 1vw;
     left: -4vw;
+    height: 845px;
 }
 
 .info-title {
+    top: -1.5vw;
     position: relative;
-    font-size: 28px;
+    font-size: 20px;
     padding-left: 3vw;
 }
 
 .useful-bullets-2 {
+    top: -20px;
     font-family: 'IBM Plex Sans';
     font-size: 25px;
     position: relative;

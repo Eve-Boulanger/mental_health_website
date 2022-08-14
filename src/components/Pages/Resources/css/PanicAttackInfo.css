@@ -1,6 +1,6 @@
 .wrapperPanicAttack {
   background-color: #CDF9B2;
-  height: 107em;
+  height: 100em;
 }
 
 .panic-attack-info-content {
@@ -8,53 +8,44 @@
 }
 
 .dark-title-emg-h2-panicattack {
-  font-family: 'IBM Plex Sans';
+  font-family: 'Source Serif Pro';;
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
 }
 
 .dark-title-emg-panicattack-h1 {
   position: relative;
   top: 3vw;
-  padding-left: 1vw;
-  background-color: #152104;
-  font-size: 47px;
-  font-family: 'Source Serif Pro';
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-  
+  left: -3vw;
+  text-align: center;
+  font-size: 35px;
   font-family: 'Source Serif Pro';
   font-style: normal;
-  font-weight: 700;
-  font-size: 47px;
+  font-weight: bold;
+  color: #66B984;
   /* identical to box height */
-
-  background-color: #66B984;
 }
 
 .useful-bullets-4 {
   font-family: 'IBM Plex Sans';
-  font-size: 25px;
+  font-size: 20px;
   position: relative;
-  font-size: 18px;
-  padding-left: 3vw;
+  padding-left: 5vw;
   width: 88%;
-  left: 2vw;
 }
 
 .useful-bullets-5 {
   font-family: 'IBM Plex Sans';
-  font-size: 25px;
+  font-size: 20px;
+  margin-top: -1.5vw;
+  margin-bottom: 3.5vw;
   position: relative;
-  font-size: 18px;
-  padding-left: 3vw;
+  padding-left: 5vw;
   width: 95%;
-  left: 2vw;
 }
 
 * {box-sizing: border-box;}
@@ -69,8 +60,8 @@
   position: relative;
   display: inline-block;
   background-color: #76C893;
-  top: 5vw;
-  height: 600px;
+  top: 4vw;
+  height: 460px;
   width: 48%;
   margin-left: 23px;
   left: -5vw;
@@ -82,19 +73,18 @@
   background-color: #76C893;
   width: 98%;
   vertical-align: middle;
-  top: 7vw;
+  top: 6vw;
   padding-bottom: 1vw;
   left: -3.2vw;
+  height: 75vw;
 }
 
 .info-title-panicattack {
   position: relative;
-  font-size: 28px;
-  font-family: 'IBM Plex Sans';
+  font-size: 30px;
+  font-family: 'Source Serif Pro';
   font-style: normal;
-  font-weight: 700;
-  font-size: 35px;
-  padding-bottom: 1vw;
+  font-weight: bold;
   padding-top: 2vw;
   text-align: center;
 }
@@ -103,19 +93,17 @@
   font-weight: bold;
   text-align: left;
   font-family: 'IBM Plex Sans';
-  font-size: 25px;
+  font-size: 20px;
   position: relative;
-  font-size: 18px;
-  padding-left: 3vw;
+  padding-left: 3.6vw;
   width: 95%;
-  left: 0.6vw;
+  top: -1.5vw;
 }
 
 .useful-bullets-2 {
   font-family: 'IBM Plex Sans';
-  font-size: 25px;
+  font-size: 20px;
   position: relative;
-  font-size: 18px;
   padding-left: 4.5vw;
   padding-bottom: 1vw;
 }

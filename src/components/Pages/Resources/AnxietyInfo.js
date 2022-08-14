@@ -3,9 +3,9 @@ import './css/AnxietyInfo.css'
 
 export const AnxietyInfo = () => {
     return(
-      <div className="wrapper-anxiety-info">
+      <div className="wrapper-anxiety-info" id="anxiety-info">
       <div className="anxiety-info-content">
-        <h1 className="dark-title-emg-anxiety-info-h1">Helping Someone Who is Having a Panic Attack</h1>
+        <h1 className="dark-title-emg-anxiety-info-h1">Helping Someone With Anxiety</h1>
         
         <div classNme="full-container-top-anxiety">
           <div className ="container-box-3-left-anxiety">

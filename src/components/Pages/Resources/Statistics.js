@@ -37,9 +37,7 @@ class Statistics extends React.Component {
     <div className="secondRow">
        <div className="header">
        <h1>Statistics on Mental Health</h1>
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-       Donec dictum tincidunt vulputate. Ut vitae sapien in est luctus luctus. In vitae bibendum orci. Nulla euismod lacinia augue, sed accumsan elit. Vestibulum 
-       in leo pretium, molestie sem eu, imperdiet lacus. 
+       <p>Click on any of the infographics below to learn more about mental health. 
        </p>
        </div>
       <MDBContainer className="container-stats">
@@ -56,7 +54,7 @@ class Statistics extends React.Component {
                   }
                 />
               </figure>
-              <p className="stat-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p className="stat-info">Learn how mental illness affects Canadians by clicking on the infographic above.</p>
             </MDBCol>
             <MDBCol md="4">
               <figure>
@@ -69,7 +67,7 @@ class Statistics extends React.Component {
                   }
                 />
               </figure>
-              <p className="stat-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p className="stat-info">Learn about the impacts that COVID-19 had on mental health by clicking on the infographic above.</p>
             </MDBCol>
             <MDBCol md="4">
               <figure>
@@ -82,7 +80,7 @@ class Statistics extends React.Component {
                   }
                 />
               </figure>
-              <p className="stat-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p className="stat-info">Learn how social injustices and inequality affects mental health by clicking on the infographic above.</p>
             </MDBCol>
           </MDBRow>
         </div>

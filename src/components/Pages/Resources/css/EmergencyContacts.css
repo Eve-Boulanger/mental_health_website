@@ -1,6 +1,6 @@
 .wrapper {
   background-color: #6CB5CB;
-  height: 60em;
+  height: 36em;
 }
 
 .row {
@@ -9,9 +9,9 @@
 }
 
 .column {
-  flex: 40%;
+  flex: 50%;
   height: 25em;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 .contacts {
@@ -19,8 +19,8 @@
 }
 
 .black-title-emg {
- background-color: #00072D;
- font-size: 47px;
+  background-color: #00072D;
+  font-size: 35px;
   font-family: 'Source Serif Pro';
   background-clip: text;
   -webkit-background-clip: text;
@@ -31,23 +31,13 @@
 
 .blue-title-emg {
   background-color: #2644648C;
-  font-size: 47px;
+  font-size: 35px;
   font-family: 'Source Serif Pro';
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
-}
-
-.navButtonsContainer {
-  border-radius: .5em;
-  width: 82%;
-  justify-content: space-between;
-  display: flex;
-  position: absolute;
-  top: 850px;
-  left: 115px;
 }
 
 .navButtons {
@@ -64,7 +54,7 @@
   border-radius: 10px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
-  font-family: 'Montserrat';
+  font-family: 'IBM Plex Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -77,12 +67,15 @@
 
 .call {
   font-family: 'IBM Plex Sans';
-  font-size: 28px;
+  font-size: 25px;
+  color:black;
 }
 
 .more-contacts {
   font-family: 'IBM Plex Sans';
-  font-size: 25px;
+  font-size: 20px;
+  width:150%;
+  color: black;
 }
 
 .parent {
@@ -92,12 +85,22 @@
     padding-right: 4em;
 }
 
+.navigateTo {
+  padding-left: 8.7vw;
+  padding-top: 2vw;
+}
+
+.navigateToText {
+  color: black;
+  text-decoration: underline 2px solid black;
+}
+
 .img1-emergency {
     position: relative;
-    top: 0;
-    left: 0;
+    top: 5px;
+    left: 90px;
     width: 100%;
-    max-width: 500px;
+    max-width: 430px;
     height: auto;
     padding-left: 30%;
   }

@@ -1,6 +1,6 @@
 .thirdRow {
     background-color: #168AAD;
-    height: 71vw;
+    height: 45vw;
     padding-left: 10px;
 }
 
@@ -20,7 +20,7 @@
 .title-sec {
     background-color: #6CB5CB;
     width: 25vw;
-    height: 64vw;
+    height: 40vw;
     padding: 50px;
     margin: 0px;
 }
@@ -28,7 +28,7 @@
 .title-mf {
     text-align: center;
     padding-top: 4vh;
-    font-size: 47px;
+    font-size: 35px;
     font-family: 'Source Serif Pro';
     background: #00072D;   
     background-clip: text;
@@ -40,7 +40,7 @@
 
 .black-title-mf {
     padding-top: 4vh;
-    font-size: 47px;
+    font-size: 35px;
     font-family: 'Source Serif Pro';
     background: #00072D;  
     background-clip: text;
@@ -52,7 +52,7 @@
 
 .blue-title-mf {
     padding-top: 4vh;
-    font-size: 47px;
+    font-size: 35px;
     font-family: 'Source Serif Pro';
     background: #00072DA6;  
     background-clip: text;
@@ -65,11 +65,11 @@
 .container-mf {
     background-color: #6CB5CB78;
     width: 30vw;
-    height: 64vw;
+    height: 40vw;
     padding: 20px 30px 20px 30px;
     margin: 0px;
     font-family: 'IBM Plex Sans';
-    font-size: 28px;
+    font-size: 20px;
     color: #00072D;
     text-align: left;
 }

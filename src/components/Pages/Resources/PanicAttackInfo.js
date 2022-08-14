@@ -3,13 +3,13 @@ import './css/PanicAttackInfo.css'
 
 export const PanicAttackInfo = () => {
     return(
-      <div className="wrapperPanicAttack">
+      <div className="wrapperPanicAttack" id="panic-attack">
       <div className="panic-attack-info-content">
         <h1 className="dark-title-emg-panicattack-h1">Helping Someone Who is Having a Panic Attack</h1>
         
         <div classNme="full-container-top">
           <div className ="container-box-3">
-            <h3 className="info-title-panicattack">What are the signs of a panic attack?</h3>
+            <h3 className="info-title-panicattack">Signs of a Panic Attack</h3>
             <ul className="useful-bullets-4">
               <li>Shortness of breath</li>
               <li>Feelings of terror or dread</li>
@@ -18,7 +18,7 @@ export const PanicAttackInfo = () => {
               <li>Feeling as though one is dying</li>
               <li>Rapid heart rate</li>
               <li>Sweating, trembling, or shaking</li>
-              <li>Feeling sick of nauseated</li>
+              <li>Feeling sick or nauseated</li>
               <li>Loss of control</li>
               <li>A sense of impending danger</li>
               <li>Chest pain and stomach cramps</li>
@@ -29,9 +29,9 @@ export const PanicAttackInfo = () => {
           <div className = "container-box-3">
             <h3 className="info-title-panicattack">Grounding Techniques</h3>
             <ul className="useful-bullets-4">
-              <li><span className="bold-italic-txt">Sit down</span> – keep the feet comfortably on the floor and focus on slowly breathing in and out</li>
-              <li><span className="bold-italic-txt">5-4-3-2-1 technique</span> – get the person to focus their attention on different senses. Ask the individual to identify 5 items they see, 4 things they feel, 3 noises they hear, 2 different smells, and 1 taste </li>
-              <li><span className="bold-italic-txt">Simple math</span> – count from 1 to 10 out of order o perform simple math calculations such as times tables</li>
+              <li><span className="bold-italic-txt">Sit down</span> – ensure the person's feet are comfortably on the floor and focus them on taking slow breaths</li>
+              <li><span className="bold-italic-txt">5-4-3-2-1 technique</span> – get the individual to focus their attention on different senses by asking them to identify 5 items they see, 4 things they feel, 3 noises they hear, 2 different smells, and 1 taste </li>
+              <li><span className="bold-italic-txt">Simple math</span> – count from 1 to 10 out of order or perform times table calculations</li>
               <li><span className="bold-italic-txt">Focus</span> – ask the person what day of the week it is, who they are with, and where they are</li>
 
             </ul>
@@ -39,7 +39,7 @@ export const PanicAttackInfo = () => {
         </div>
 
         <div className = "container-box-4">
-          <h2 className="dark-title-emg-h2">How can I help someone who is having a panic attack?</h2>
+          <h2 className="dark-title-emg-h2-panicattack">How Can I Help Someone Who is Having a Panic Attack?</h2>
           <h3 className="info-title-panicattack-subheading">Helping Someone During a Panic Attack</h3>
           <ul className="useful-bullets-5">
               <li>Stay with the person and keep calm</li>

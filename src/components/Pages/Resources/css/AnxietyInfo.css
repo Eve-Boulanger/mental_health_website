@@ -8,10 +8,10 @@
 }
 
 .dark-title-emg-h2-anxiety {
-  font-family: 'IBM Plex Sans';
+  font-family: 'Source Serif Pro';
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   padding-top: 2vw;
   padding-bottom: 1vw;
@@ -22,18 +22,15 @@
   top: 3vw;
   padding-left: 1vw;
   background-color: #152104;
-  font-size: 47px;
+  font-size: 35px;
   font-family: 'Source Serif Pro';
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
+  text-align: center;
   
-  font-family: 'Source Serif Pro';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 47px;
   /* identical to box height */
 
   background-color: #CDF9B2;
@@ -41,9 +38,8 @@
 
 .useful-bullets-4-anxiety {
   font-family: 'IBM Plex Sans';
-  font-size: 25px;
+  font-size: 20px;
   position: relative;
-  font-size: 18px;
   padding-left: 3vw;
   width: 88%;
   left: 2vw;
@@ -51,9 +47,8 @@
 
 .useful-bullets-5-anxiety {
   font-family: 'IBM Plex Sans';
-  font-size: 25px;
+  font-size: 20px;
   position: relative;
-  font-size: 18px;
   padding-left: 3vw;
   width: 95%;
   left: 2vw;
@@ -102,23 +97,23 @@
 
 .info-title-anxiety {
   position: relative;
-  font-size: 28px;
-  font-family: 'IBM Plex Sans';
+  font-family: 'Source Serif Pro';
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 30px;
   padding-bottom: 1vw;
   padding-top: 2vw;
   text-align: center;
+  width: 80%;
+  left: 55px;
 }
 
 .info-title-anxiety-subheading {
   font-weight: bold;
   text-align: left;
-  font-family: 'IBM Plex Sans';
-  font-size: 25px;
+  font-family: 'Source Serif Pro';
+  font-size: 20px;
   position: relative;
-  font-size: 18px;
   padding-left: 3vw;
   width: 95%;
   left: 0.6vw;
@@ -126,9 +121,8 @@
 
 .useful-bullets-2 {
   font-family: 'IBM Plex Sans';
-  font-size: 25px;
+  font-size: 20px;
   position: relative;
-  font-size: 18px;
   padding-left: 4.5vw;
   padding-bottom: 1vw;
 }
@@ -140,11 +134,9 @@
 
 .info-title-anxiety-top {
   position: relative;
-  font-size: 28px;
-  font-family: 'IBM Plex Sans';
-  font-style: normal;
+  font-size: 30px;
+  font-family: 'Source Serif Pro';
   font-weight: 700;
-  font-size: 35px;
   height: 48%;
   background-color: #CDF9B2;
   font-weight: normal;
@@ -152,11 +144,10 @@
 
 .info-title-anxiety-bottom {
   position: relative;
-  font-size: 28px;
-  font-family: 'IBM Plex Sans';
+  font-size: 30px;
+  font-family: 'Source Serif Pro';
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
   height: 48%;
   margin-top: 1.9vw;
   background-color: #CDF9B2;
