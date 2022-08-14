@@ -12,8 +12,7 @@ export const Articles = () => {
         <div className="fourthRow">
             <div className="header">
                 <h1>Articles on Mental Health</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                Donec dictum tincidunt vulputate.
+                <p>Click on any of the articles below to learn more about mental health and what you can work on to improve yours.
             </p>
             </div>
             <CardGroup>

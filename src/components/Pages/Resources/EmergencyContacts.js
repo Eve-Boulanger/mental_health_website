@@ -3,6 +3,7 @@ import './css/EmergencyContacts.css'
 import thinking from '../../Images/thinking-man.jpg'
 import thinking2 from '../../Images/thinking-person.png'
 import thinking3 from '../../Images/thinking-person-string.png'
+import {Link} from "react-router-dom";
 
 export const EmergencyContacts = () => {
     return(
@@ -11,7 +12,7 @@ export const EmergencyContacts = () => {
         <div className="column">
             <div className="contacts">
             <h2><span className="black-title-emg">Emergency</span><span className="blue-title-emg"> Support</span></h2>
-            <p className="call"><b>Call 211 to direct you to the best resource for you!</b></p>
+            <p className="call"><b>Call 211 to be directed to the best resource for you!</b></p>
             <h2><span className="black-title-emg">Talk to Someone</span><span className="blue-title-emg"> in Waterloo</span></h2>
             <ul className="more-contacts">
             <li>Supportive and Confidential Listening (519-745-1166)</li>
@@ -31,10 +32,16 @@ export const EmergencyContacts = () => {
             </div>
           </div>
         </div>
-        <div className = "navButtonsContainer">
-              <button className = "navButtons" href="#idName"> Helping Someone With Suicidal Thoughts </button>
-              <button className = "navButtons" href="#idName"> Helping Someone Having a Panic Attack </button>
-              <button className = "navButtons" href="#idName"> Helping Someone With Anxiety </button>
+        <div className = "navigateTo">
+          <div className = "call">
+            <a href="#suicidal-thoughts-info"><b className = "navigateToText">Helping Someone With Suicidal Thoughts</b></a>
+          </div>
+          <div className = "call">
+            <a href="#panic-attack"><b className = "navigateToText">Helping Someone Having a Panic Attack</b></a>
+          </div>
+          <div className = "call">
+            <a href="#anxiety-info"><b className = "navigateToText">Helping Someone With Anxiety</b></a>
+          </div>
         </div>
     </div>
     );
