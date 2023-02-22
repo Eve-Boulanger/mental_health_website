@@ -1,7 +1,7 @@
 import React from "react";
 import useDonationForm from "./useDonationForm";
 
-import "./Donation.css";
+import "./Styles/Donation.css";
 
 const DonationForm = ({submitDonation}) => {
     const {handleChange, values, handleSubmit} = useDonationForm(submitDonation);

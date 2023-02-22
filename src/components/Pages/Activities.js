@@ -1,5 +1,5 @@
 import React from "react";
-import "./Activities.css";
+import "../Styles/Activities.css";
 import { BsChevronCompactRight } from 'react-icons/bs'
 
 export const Activities = () => {

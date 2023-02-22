@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { CartItem } from "./CartItem";
-import "./MyCart.css";
+import "./Styles/MyCart.css";
 import {Link} from "react-router-dom";
 import items from "./Products";
 import { Card, CardGroup, Carousel, Image } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import teddy from './Pages/images/merch-teddy.JPG'
-import "./Pages/Support.css";
+import "./Styles/Support.css";
 import { Container, Row, Col } from "react-bootstrap";
-import "./ShopItems.css";
+import "./Styles/ShopItems.css";
 import { MyCart } from "./MyCart";
 
 export const ShopItems = () => {

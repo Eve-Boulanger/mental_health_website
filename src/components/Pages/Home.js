@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "../Styles/Home.css";
 import brain from'../Pages/img/brainExerciseBlue.jpg';
 import {Link} from "react-router-dom";
 import donate from'../Pages/img/donate.png';
