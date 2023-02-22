@@ -1,5 +1,5 @@
 import React from "react";
-import "./CartItem.css";
+import "./Styles/CartItem.css";
 
 export const CartItem = (props) => {
     return (

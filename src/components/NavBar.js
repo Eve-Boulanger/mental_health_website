@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import {AiOutlineHome} from "react-icons/ai";
-import "./NavBar.css";
+import "./Styles/NavBar.css";
 
 function NavBar() {
   const [click, setClick] = useState(false);

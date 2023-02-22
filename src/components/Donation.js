@@ -3,7 +3,7 @@ import React, {useState} from "react";
 import DonationForm from "./DonationForm";
 import StripeContainer from "./StripeContainer"
 import DonationSuccess from "./DonationSuccess";
-import "./Donation.css";
+import "./Styles/Donation.css";
 
 const Donation = () => {
     const [isSubmitted, setIsSubmitted] = useState(false);

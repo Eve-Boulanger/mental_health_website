@@ -1,7 +1,7 @@
 import React from "react";
 import DonateTabs from "../DonateTabs";
 import {MyCart} from "../MyCart";
-import "./Support.css";
+import "../Styles/Support.css";
 import { Container, Row } from "react-bootstrap";
 import { ShopItems } from "../ShopItems";
 

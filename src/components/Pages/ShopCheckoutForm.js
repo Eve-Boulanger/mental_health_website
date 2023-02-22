@@ -1,5 +1,5 @@
 import React from "react";
-import './ShopCheckoutForm.css';
+import '../Styles/ShopCheckoutForm.css';
 import { Row, Col } from "react-bootstrap";
 import {Link} from "react-router-dom";
 

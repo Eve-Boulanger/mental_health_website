@@ -1,6 +1,6 @@
 import React from "react";
 import verify from "../Pages/img/verify.jpg"
-import "./PaymentConfirmation.css";
+import "../Styles/PaymentConfirmation.css";
 import {Link} from "react-router-dom";
 
 export const PaymentConfirmation = () => {

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import Donation from "./Donation";
-import "./DonateTabs.css";
+import "./Styles/DonateTabs.css";
 
 import etransfer from "./Pages/images/interac_e-transfer_logo.png";
 import email from "./Pages/images/email_icon.png";
