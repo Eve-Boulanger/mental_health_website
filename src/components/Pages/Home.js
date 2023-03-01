@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/Home.css";
+import "../Styles/GeneralStyles.css";
 import brain from'../Pages/img/brainExerciseBlue.jpg';
 import {Link} from "react-router-dom";
 import donate from'../Pages/img/donate.png';
@@ -8,10 +9,10 @@ export const Home = () => {
   return (
     <div>
       <div class = "containerHome">
-        <h1><span class = "blueGrey">PRIORITIZE</span><span class = "darkBlue"> MENTAL HEALTH.</span></h1> 
-        <h1><span class = "blueGrey">BREAK THE</span><span class = "darkBlue"> STIGMA.</span></h1>
-        <h1><span class = "blueGrey">ASK FOR</span><span class = "darkBlue"> HELP.</span></h1> 
-        <h1><span class = "blueGrey">PROGRESS</span><span class = "darkBlue"> OVER PERFECTION.</span></h1>
+        <h1><span class = "blue-title title-text">PRIORITIZE</span><span class = "black-title title-text"> MENTAL HEALTH.</span></h1> 
+        <h1><span class = "blue-title title-text">BREAK THE</span><span class = "black-title title-text"> STIGMA.</span></h1>
+        <h1><span class = "blue-title title-text">ASK FOR</span><span class = "black-title title-text"> HELP.</span></h1> 
+        <h1><span class = "blue-title title-text">PROGRESS</span><span class = "black-title title-text"> OVER PERFECTION.</span></h1>
       </div>
       <div class = "headerImg">
         <img src={brain} alt="brain exercise"/>
