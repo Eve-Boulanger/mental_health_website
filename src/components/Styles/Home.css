@@ -1,16 +1,7 @@
 @media screen {
 
-    /*
-.blueGrey{
-    color: rgba(0, 7, 45, 0.65);
-}
-
-.darkBlue{
-    color: rgba(0, 7, 45, 1);
-} */
-
 .containerHome{
-    background: rgba(108, 181, 203, 1);
+    /*background: rgba(108, 181, 203, 1); */
     position: absolute;
     font-family: 'source serif pro';
     text-align: left;

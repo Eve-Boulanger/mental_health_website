@@ -8,7 +8,7 @@ import {Link} from "react-router-dom";
 
 export const EmergencyContacts = () => {
     return(
-    <div className="wrapper">
+    <div className="wrapper light-blue-background">
          <div className='row'>
         <div className="column">
             <div className="contacts">

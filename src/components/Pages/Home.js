@@ -8,7 +8,7 @@ import donate from'../Pages/img/donate.png';
 export const Home = () => {
   return (
     <div>
-      <div class = "containerHome">
+      <div class = "containerHome light-blue-background">
         <h1><span class = "blue-title title-text">PRIORITIZE</span><span class = "black-title title-text"> MENTAL HEALTH.</span></h1> 
         <h1><span class = "blue-title title-text">BREAK THE</span><span class = "black-title title-text"> STIGMA.</span></h1>
         <h1><span class = "blue-title title-text">ASK FOR</span><span class = "black-title title-text"> HELP.</span></h1> 
