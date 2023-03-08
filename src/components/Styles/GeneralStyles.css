@@ -14,3 +14,25 @@
 .light-blue-background {
     background-color: #6CB5CB;
 }
+
+.wrapper {
+    height: 36em;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1em;
+}
+
+.column {
+    flex: 50%;
+    height: 25em;
+    padding-top: 1em;
+}
+
+.header-image img {
+    position: relative;
+    width: 80%;
+    padding-right: 4em;
+}

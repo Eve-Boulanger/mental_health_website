@@ -1,7 +1,6 @@
 @media screen {
 
 .containerHome{
-    /*background: rgba(108, 181, 203, 1); */
     position: absolute;
     font-family: 'source serif pro';
     text-align: left;
@@ -19,7 +18,7 @@
     z-index: -1;
 }
 
-.headerImg img {
+/* .headerImg img {
     position: relative;
     width: 300px;
     left: 850px;
@@ -27,7 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-}
+} */
 
 .aboutContainerHome h2 {
     position: relative;

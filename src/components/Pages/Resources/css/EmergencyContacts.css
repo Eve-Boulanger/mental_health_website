@@ -1,9 +1,8 @@
-.wrapper {
-  /*background-color: #6CB5CB;*/
+/* .wrapper {
   height: 36em;
-}
+} */
 
-.row {
+/* .row {
   display: flex;
   flex-wrap: wrap;
 }
@@ -12,35 +11,11 @@
   flex: 50%;
   height: 25em;
   padding-top: 1em;
-}
+} */
 
 .contacts {
     padding-left: 7em;
 }
-
-/*
-.black-title-emg {
-  background-color: #00072D;
-  font-size: 35px;
-  font-family: 'Source Serif Pro';
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-
-.blue-title-emg {
-  background-color: #2644648C;
-  font-size: 35px;
-  font-family: 'Source Serif Pro';
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-*/
 
 .navButtons {
   width: 327px;
