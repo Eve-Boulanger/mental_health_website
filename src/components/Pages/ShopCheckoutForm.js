@@ -3,6 +3,10 @@ import '../Styles/ShopCheckoutForm.css';
 import { Row, Col } from "react-bootstrap";
 import {Link} from "react-router-dom";
 
+// This page displays the shop checkout form; it prompts the user to fill in payment fields.
+// It appears after the user has clicked 'CHECK OUT' on the main support page
+// TODO: fix formatting & appearance, fix & link payment fields to Stripe API
+
 export const ShopCheckoutForm = () => {
     return (
         <Row>

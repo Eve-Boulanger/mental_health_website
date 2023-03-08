@@ -6,6 +6,9 @@ import "./Styles/DonateTabs.css";
 import etransfer from "./Pages/images/interac_e-transfer_logo.png";
 import email from "./Pages/images/email_icon.png";
 
+// This function contains the tabs used to display both the online form and interac e-transfer information.
+// TODO: replace e-transfer info with shop items.
+
 function DonateTabs() {
     const [toggleState, setToggleState] = useState(1);
 

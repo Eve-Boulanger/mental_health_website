@@ -3,6 +3,10 @@ import verify from "../Pages/img/verify.jpg"
 import "../Styles/PaymentConfirmation.css";
 import {Link} from "react-router-dom";
 
+// This page displays confirmation that the user's order has been processed and payment has been received
+// It appears after the user has clicked the 'PLACE ORDER' button
+// TODO: verify image does not display, text needs to be resized and reformatted
+
 export const PaymentConfirmation = () => {
     return (
         <div>
