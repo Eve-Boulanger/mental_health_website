@@ -1,10 +1,9 @@
 import React from "react";
 import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 
-// import useDonationForm from "./useDonationForm";
+// This is the donation form with Stripe API.
+// TODO: implement input fields used by Stripe API, add styling
 
-// TODO: styling
-// import "./Donation.css";
 
 export const DonationFormStripe = () => {
   const stripe = useStripe();

@@ -5,6 +5,9 @@ import "../Styles/Support.css";
 import { Container, Row } from "react-bootstrap";
 import { ShopItems } from "../ShopItems";
 
+// This page hosts main support page. It displays information regarding the website (top left), donation tabs (top right), and the shop carousel (bottom)
+// TODO: fix text, remove split screen, change donation tabs to offer donate & shop options (see Click Up)
+
 export const Support = () => {
   return (
     <Container fluid bsPrefix="container-support">
