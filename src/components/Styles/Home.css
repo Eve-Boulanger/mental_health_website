@@ -1,61 +1,9 @@
 @media screen {
 
-.containerHome{
-    position: absolute;
-    font-family: 'source serif pro';
-    text-align: left;
-    padding-left: 100px;
-    padding-top: 25px;
-    position: absolute;
-    box-sizing: border-box;
-    width: 100%;
-    display: inline;
-    height: 300px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 1.9em;
-    z-index: -1;
-}
-
-/* .headerImg img {
-    position: relative;
-    width: 300px;
-    left: 850px;
-    top: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-} */
-
-.aboutContainerHome h2 {
-    position: relative;
-    margin: 0px;
-    width: 20px;
-    box-sizing: border-box;
-    height: 25px;
-    left: 200px;
-    top: 168px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-
-    color: #00072D;
-}
-
 .aboutContainerHome p {
-    position: relative;
-    padding-left: 200px;
-    width: 85%;
-    top: 188px;
-    font-family: 'IBM Plex Sans';
+    font-family: 'Source Serif Pro';
     font-size: 18px;
-}
-
-.bold{
-    font-weight: bold;
+    font-weight: 200;
 }
 
 .donateButtonHome{

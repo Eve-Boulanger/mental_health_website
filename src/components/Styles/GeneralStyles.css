@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Montserrat&family=Source+Serif+Pro:wght@200;300;400;600;700;900&display=swap');
+
 .black-title {
     color: #00072D;
   }
@@ -8,7 +10,7 @@
 
 .title-text {
     font-size: 35px;
-    font-family: 'Source Serif Pro';
+    font-weight: bold;
 }
 
 .light-blue-background {
@@ -23,6 +25,7 @@
     display: flex;
     flex-wrap: wrap;
     padding-left: 1em;
+    font-family: 'Source Serif Pro';
 }
 
 .column {
@@ -35,4 +38,18 @@
     position: relative;
     width: 80%;
     padding-right: 4em;
+}
+
+.h2 {
+    font-size: 25px;
+    color: black;
+}
+
+.p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.bold{
+    font-weight: bold;
 }
