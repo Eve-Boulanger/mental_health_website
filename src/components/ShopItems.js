@@ -1,15 +1,13 @@
 import React, { useState } from "react";
-import { CartItem } from "./CartItem";
-import "./Styles/MyCart.css";
 import {Link} from "react-router-dom";
-import items from "./Products";
 import { Card, CardGroup, Carousel, Image } from "react-bootstrap";
 import { Button } from "react-bootstrap";
-import teddy from './Pages/images/merch-teddy.JPG'
+
+import items from "./Products";
+
 import "./Styles/Support.css";
-import { Container, Row, Col } from "react-bootstrap";
 import "./Styles/ShopItems.css";
-import { MyCart } from "./MyCart";
+import "./Styles/MyCart.css";
 
 export const ShopItems = () => {
   const [cart, setCart] = useState([])
@@ -77,11 +75,10 @@ export const ShopItems = () => {
             <CardGroup className = "grid" data-interval="false">
               {listItemsToBuy()}
             </CardGroup> 
-            <div className = "teddy">
-              <h1><img src={teddy} alt="teddy" width={168} height={100}/> SHOP.</h1>
-            </div>
           {checkoutPageDirection()}
       </div>
 
     );
 };
+
+export default ShopItems;
