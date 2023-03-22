@@ -1,9 +1,9 @@
 import React from "react";
+import { Container} from "react-bootstrap";
+
 import DonateTabs from "../DonateTabs";
-import {MyCart} from "../MyCart";
+
 import "../Styles/Support.css";
-import { Container, Row } from "react-bootstrap";
-import { ShopItems } from "../ShopItems";
 
 // This page hosts main support page. It displays information regarding the website (top left), donation tabs (top right), and the shop carousel (bottom)
 // TODO: fix text, remove split screen, change donation tabs to offer donate & shop options (see Click Up)
@@ -12,9 +12,9 @@ export const Support = () => {
   return (
     <Container fluid bsPrefix="container-support"s>
       <div className="donate top-container">
-        <h1><span className="color1">Donate</span><span className="color2"> now!</span></h1>
+        <h1><span className="color1">Support</span><span className="color2"> now!</span></h1>
         <div className="content-text">
-          <h2>Why donate?</h2>
+          <h2>Why support?</h2>
           <p>
             [Name of website] is a fundraising effort by the <b>University of Waterloo 
             Engineers without Borders Design Portfolio </b>, which aims to advocate for 
@@ -46,10 +46,6 @@ export const Support = () => {
       <div className="bottom-container">
         <DonateTabs/>
       </div>
-      {/* TODO: ShopItems should be moved into Donate Tabs */}
-      {/* <div className="merch">
-        <ShopItems/>
-      </div> */}
     </Container>
   );
 };
