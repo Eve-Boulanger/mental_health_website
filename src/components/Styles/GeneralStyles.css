@@ -14,7 +14,11 @@
 }
 
 .light-blue-background {
-    background-color: #6CB5CB;
+    background: #6CB5CB;
+}
+
+.dark-blue-background {
+    background: #168AAD;;
 }
 
 .wrapper {
@@ -30,7 +34,7 @@
 
 .column {
     flex: 50%;
-    height: 25em;
+    height: fit-content;
     padding-top: 1em;
 }
 
@@ -41,15 +45,51 @@
 }
 
 .h2 {
-    font-size: 25px;
+    font-size: 25em;
     color: black;
 }
 
 .p {
-    font-size: 20px;
+    font-size: 20em;
     font-weight: normal;
 }
 
 .bold{
     font-weight: bold;
 }
+
+.donateButtonHome{
+    position: relative;
+    width: 100%;
+}
+
+.donate-now img {
+    width: 23px;
+}
+
+.donateButtonHomeBUTTON {
+    text-align: right;
+}
+
+.donateButtonHomeBUTTON button {
+    position: relative;
+    width: 100%;
+    background:#9CD7B1;
+    border: 0px;
+    font-family: 'IBM Plex Sans';
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(15, 31, 44, 1);
+    text-align: center;
+}
+
+.call {
+    font-family: 'IBM Plex Sans';
+    font-size: 25px;
+    color:black;
+  }
+  
+  .navigateToText {
+    color: black;
+    text-decoration: underline 2px solid black;
+  }

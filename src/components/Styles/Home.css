@@ -1,49 +1,4 @@
 @media screen {
-
-.aboutContainerHome p {
-    font-family: 'Source Serif Pro';
-    font-size: 18px;
-    font-weight: 200;
-}
-
-.donateButtonHome{
-    position: absolute;
-    top: 325px;
-    width: 100%;
-    background: #168AAD;
-}
-
-.donateButtonHome p {
-    position: absolute;
-    top: 10px;
-    width: 100%;
-    padding-left: 100px;
-    text-align: left;
-    color:rgba(0, 7, 45, 1);
-}
-
-.donateButtonHomeBUTTON {
-    text-align: right;
-}
-
-.donateButtonHomeBUTTON button {
-    position: relative;
-    width: 30%;
-    height: 50px;
-    background:#9CD7B1;
-    border: 0px;
-    font-family: 'IBM Plex Sans';
-    font-weight: bold;
-    font-size: 25px;
-    color: rgba(15, 31, 44, 1);
-    text-align: center;
-}
-.donateButtonHome img {
-    position: absolute;
-    width: 23px;
-    padding-left: 4px;
-    top: 15px;
-}
 .middleAndBackTextHome {
     position: relative; 
     top: 250px;

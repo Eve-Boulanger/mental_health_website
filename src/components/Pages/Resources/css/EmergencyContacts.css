@@ -37,13 +37,6 @@
   color: #000000;
 }
 
-
-.call {
-  font-family: 'IBM Plex Sans';
-  font-size: 25px;
-  color:black;
-}
-
 .more-contacts {
   font-family: 'IBM Plex Sans';
   font-size: 20px;
@@ -58,14 +51,6 @@
     padding-right: 4em;
 }
 
-.navigateTo {
-  padding-top: 2vw;
-}
-
-.navigateToText {
-  color: black;
-  text-decoration: underline 2px solid black;
-}
 
 .img1-emergency {
     position: relative;

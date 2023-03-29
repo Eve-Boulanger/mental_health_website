@@ -23,6 +23,17 @@ export const EmergencyContacts = () => {
                 <li>Mental Health and Community Referral Information (519-744-5594)</li>
               </ul>
               <h2><span className="black-title title-text">Navigate</span><span className="blue-title title-text"> To...</span></h2>
+              <div className = "navigateTo">
+                <div className = "call">
+                  <a href="#suicidal-thoughts-info"><b className = "navigateToText">Helping Someone With Suicidal Thoughts</b></a>
+                </div>
+                <div className = "call">
+                  <a href="#panic-attack"><b className = "navigateToText">Helping Someone Having a Panic Attack</b></a>
+                </div>
+                <div className = "call">
+                  <a href="#anxiety-info"><b className = "navigateToText">Helping Someone With Anxiety</b></a>
+                </div>
+              </div>
               </div>
           </div>
           <div className="column">
@@ -31,17 +42,6 @@ export const EmergencyContacts = () => {
                   <img className="img1-emergency" src={thinking} alt="Thinking 1" />
                   <img className="img1-emergency" src={thinking2} alt="Thinking 2" />
               </div>
-          </div>
-          <div className = "navigateTo">
-            <div className = "call">
-              <a href="#suicidal-thoughts-info"><b className = "navigateToText">Helping Someone With Suicidal Thoughts</b></a>
-            </div>
-            <div className = "call">
-              <a href="#panic-attack"><b className = "navigateToText">Helping Someone Having a Panic Attack</b></a>
-            </div>
-            <div className = "call">
-              <a href="#anxiety-info"><b className = "navigateToText">Helping Someone With Anxiety</b></a>
-            </div>
           </div>
         </div>
     </div>
