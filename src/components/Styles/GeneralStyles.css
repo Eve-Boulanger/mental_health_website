@@ -58,38 +58,35 @@
     font-weight: bold;
 }
 
-.donateButtonHome{
-    position: relative;
-    width: 100%;
-}
-
 .donate-now img {
-    width: 23px;
+    width: 1em;
 }
 
-.donateButtonHomeBUTTON {
-    text-align: right;
-}
-
-.donateButtonHomeBUTTON button {
-    position: relative;
-    width: 100%;
+.donate-now button {
+    width: 20em;
     background:#9CD7B1;
-    border: 0px;
-    font-family: 'IBM Plex Sans';
+    font-family: 'Source Serif Pro';
     font-weight: bold;
-    font-size: 25px;
+    font-size: 1.5em;
     color: rgba(15, 31, 44, 1);
     text-align: center;
 }
 
 .call {
-    font-family: 'IBM Plex Sans';
-    font-size: 25px;
+    font-family: 'Source Serif Pro';
+    font-size: 1.5em;
     color:black;
-  }
-  
-  .navigateToText {
+    font-weight: bold;
+}
+
+.call a {
     color: black;
-    text-decoration: underline 2px solid black;
-  }
+    font-weight: bold;
+    display: block;
+}
+
+.contacts ul{
+    font-family: 'Source Serif Pro';
+    font-size: 20px;
+    color: black;
+}

@@ -27,7 +27,7 @@ export const Home = () => {
             <p> Donate to support mental health research and help students in need. </p>
           </div>
           <div class = "column">
-            <div class = "donateButtonHomeBUTTON donate-now">
+            <div class = "donate-now">
               <Link to="/support"><button>
                   DONATE NOW <img src={donate} alt="donate hand icon"/>
                 </button>
