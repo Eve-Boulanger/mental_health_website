@@ -22,7 +22,7 @@
 }
 
 .wrapper {
-    height: 36em;
+    height: fit-content;
 }
 
 .row {
@@ -36,21 +36,11 @@
     flex: 50%;
     height: fit-content;
     padding-top: 1em;
+    justify-content: space-between;
 }
 
-.header-image img {
-    position: relative;
-    width: 80%;
-    padding-right: 4em;
-}
-
-.h2 {
-    font-size: 25em;
-    color: black;
-}
-
-.p {
-    font-size: 20em;
+.column p {
+    font-size: 1.5em;
     font-weight: normal;
 }
 
@@ -58,35 +48,8 @@
     font-weight: bold;
 }
 
-.donate-now img {
-    width: 1em;
-}
-
-.donate-now button {
-    width: 20em;
-    background:#9CD7B1;
-    font-family: 'Source Serif Pro';
-    font-weight: bold;
-    font-size: 1.5em;
-    color: rgba(15, 31, 44, 1);
-    text-align: center;
-}
-
-.call {
+.list {
     font-family: 'Source Serif Pro';
     font-size: 1.5em;
-    color:black;
-    font-weight: bold;
-}
-
-.call a {
-    color: black;
-    font-weight: bold;
-    display: block;
-}
-
-.contacts ul{
-    font-family: 'Source Serif Pro';
-    font-size: 20px;
     color: black;
 }

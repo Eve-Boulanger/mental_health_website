@@ -1,110 +1,20 @@
-.navButtons {
-  width: 327px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 40px;
-  padding-left: 40px;
-  height: 100px;
-  text-align: center;
-  background-color: #76C893;
-  display: inline-block;
-  vertical-align: middle;
-  border-radius: 10px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
-  font-family: 'IBM Plex Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-
-  color: #000000;
-}
-
-.parent {
-    position: relative;
-    top: 0;
-    left: 0;
-    padding-right: 4em;
-}
-
-
-.img1-emergency {
-    position: relative;
-    top: 5px;
-    left: 90px;
-    width: 100%;
-    max-width: 430px;
+.img1-emergency img{
+    display: block;
+    width: 15em;
     height: auto;
-    padding-left: 30%;
+    margin-left: 10em;
+    margin-top: 2em;
   }
 
-   (max-width: 1515px) {
-    .wrapper {
-      height: 47em;
-    }
-  }
+.navigateTo {
+  font-family: 'Source Serif Pro';
+  font-size: 1.5em;
+  color:black;
+  font-weight: bold;
+}
 
-   (max-width: 1184px) {
-    .wrapper {
-      height: 52em;
-    }
-  }
-
-   (max-width: 1135px) {
-    .wrapper {
-      height: 58em;
-    }
-  }
-
-   (max-width: 990px) {
-    .wrapper {
-      height: 64em;
-    }
-  }
-
-   (max-width: 990px) {
-    .wrapper {
-      height: 64em;
-    }
-  }
-
-   (max-width: 960px) {
-    .contacts {
-      padding-left: 1.5em;
-      padding-top: 2em;
-    }
-    .img1-emergency {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 500px;
-      height: auto;
-      padding-left: 10%;
-    }
-    .row {
-      flex-direction: column;
-    }
-    .wrapper {
-      height: 57em;
-    }
-    .column {
-      padding-top: 0em;
-    }
-    .parent {
-      padding-top: 1em;
-    }
-  }
-
-   (max-width: 880px) {
-    .wrapper {
-      height: 64em;
-    }
-  }
-
-   (max-width: 700px) {
-    .wrapper {
-      height: 72em;
-    }
-  }
+.navigateTo a {
+    color: black;
+    font-weight: bold;
+    display: block;
+}
