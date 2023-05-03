@@ -8,13 +8,10 @@
 
 .navigateTo {
   font-family: 'Source Serif Pro';
-  font-size: 1.5em;
-  color:black;
-  font-weight: bold;
+  font-size: 1em;
 }
 
 .navigateTo a {
     color: black;
-    font-weight: bold;
     display: block;
 }

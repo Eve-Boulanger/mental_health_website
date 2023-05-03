@@ -1,22 +1,17 @@
 @media screen {
 .header-image img {
     position: relative;
-    width: 80%;
-    padding-right: 4em;
+    width: 20em;
 }
 
 .donate-now img {
-    width: 1em;
+    width: 0.75em;
 }
 
 .donate-now button {
     width: 20em;
     background:#9CD7B1;
-    font-family: 'Source Serif Pro';
-    font-weight: bold;
     font-size: 1.5em;
-    color: rgba(15, 31, 44, 1);
-    text-align: center;
 }
 
 .middleAndBackTextHome {

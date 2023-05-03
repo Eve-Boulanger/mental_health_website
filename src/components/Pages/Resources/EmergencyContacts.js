@@ -22,7 +22,7 @@ export const EmergencyContacts = () => {
                     <li>Mental Health and Community Referral Information (519-744-5594)</li>
                 </ul>
             <h2><span className="black-title title-text">Navigate</span><span className="blue-title title-text"> To...</span></h2>
-            <div className = "navigateTo">
+            <div className = "navigateTo bold">
                 <a href="#suicidal-thoughts-info">Helping Someone With Suicidal Thoughts</a>
                 <a href="#panic-attack">Helping Someone Having a Panic Attack</a>
                 <a href="#anxiety-info">Helping Someone With Anxiety</a>
