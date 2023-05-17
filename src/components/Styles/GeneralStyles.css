@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Montserrat&family=Source+Serif+Pro:wght@200;300;400;600;700;900&display=swap');
+
+.black-title {
+    color: black;
+  }
+  
+.blue-title {
+    color: #2644648C;
+}
+
+.title-text {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.light-blue-background {
+    background: #6CB5CB;
+}
+
+.dark-blue-background {
+    background: #168AAD;;
+}
+
+.light-green-background {
+    background: #B8E6AE;
+}
+
+.dark-green-background {
+    background: #9CD7B1;
+}
+
+.wrapper {
+    height: fit-content;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    font-family: 'Source Serif Pro';
+    justify-content: space-between;
+}
+
+.column {
+    flex: 50%;
+    height: fit-content;
+    padding-top: 1em;
+}
+
+.column p {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.list {
+    font-family: 'Source Serif Pro';
+    font-size: 1em;
+}
+
+.content-box {
+    flex: 30%;
+    height: fit-content;
+    margin: 1em;
+    padding: 1em 1em;
+    text-align: center;
+    border-radius: 1em;
+}
