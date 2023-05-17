@@ -45,39 +45,32 @@ export const Home = () => {
         </div>
       </div>
 
-      <div className = "row">
-
-        <div className = "column">
-        <h2>Resources</h2>
+      <div className = "row dark-green-background">
+        <div className = "content-box light-green-background">
+        <h2 class="title-text">Resources</h2>
         <p>There are a number of free mental health resources available in the community. This page outlines hotline numbers as well as information about mental health services.</p>
-          <div class = "readMoreLeft">
-            <Link to="/resources"><button>
-              Read More.
-            </button>
-            </Link>
-          </div>
+          <Link to="/resources"><button class = "underline light-green-background">
+            Read More.
+          </button>
+          </Link>
         </div>
 
-        <div className = "column">
-        <h2>Activities</h2>
+        <div className = "content-box">
+        <h2 className = "title-text">Activities</h2>
         <p>Exercise your mind with meditation, daily reflection, and positive thinking.</p>
-          <div class = "readMoreMiddle">
-            <Link to="/activities"><button>
-              Read More.
-            </button>
-            </Link>
-          </div>
+          <Link to="/activities"><button class="underline dark-green-background">
+            Read More.
+          </button>
+          </Link>
         </div>
 
-        <div className = "column">
-        <h2>Support</h2>
+        <div className = "content-box light-green-background">
+        <h2 className = "title-text">Support</h2>
         <p>All proceeds are donated to mental health research as well as to provide money to students who require mental health resources beyond those that are free through the university.</p>
-          <div class = "readMoreRight">
-            <Link to="/support"><button>
-              Read More.
-            </button>
-            </Link>
-          </div>
+        <Link to="/support"><button class="underline light-green-background">
+          Read More.
+        </button>
+        </Link>
         </div>
 
       </div>

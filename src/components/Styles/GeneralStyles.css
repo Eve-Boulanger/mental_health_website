@@ -21,16 +21,24 @@
     background: #168AAD;;
 }
 
+.light-green-background {
+    background: #B8E6AE;
+}
+
+.dark-green-background {
+    background: #9CD7B1;
+}
+
 .wrapper {
     height: fit-content;
 }
 
 .row {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 1em;
+    padding: 1em;
     font-family: 'Source Serif Pro';
+    justify-content: space-between;
 }
 
 .column {
@@ -48,7 +56,20 @@
     font-weight: bold;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .list {
     font-family: 'Source Serif Pro';
     font-size: 1em;
+}
+
+.content-box {
+    flex: 30%;
+    height: fit-content;
+    margin: 1em;
+    padding: 1em 1em;
+    text-align: center;
+    border-radius: 1em;
 }
