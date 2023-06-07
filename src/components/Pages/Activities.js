@@ -1,18 +1,16 @@
 import React from "react";
 import "../Styles/Activities.css";
+import "../Styles/GeneralStyles.css";
 import { BsChevronCompactRight } from 'react-icons/bs'
 
 export const Activities = () => {
   return (
-    <div className="activities-page">
-      <div className="practices-container">
-        <div className="header-text">
-          <h1>Mental Health Practices</h1>
-          <p>There are many different techniques and practices that can improve our overall mental health and well-being. 
-            Here are some activities you can start with!</p>
-        </div>
+    <div className="center-text">
+      <div className="row light-green-background">
+        <h1 className="title-text green-title">Mental Health Practices</h1>
+        <p>There are many different techniques and practices that can improve our overall mental health and well-being. 
+          Here are some activities you can start with!</p>
           
-        
         <div className="body">
           <div className="activities-card">
             <h3>Guide to Meditation</h3>

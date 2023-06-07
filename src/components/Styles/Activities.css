@@ -1,20 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Montserrat&family=Source+Serif+Pro:wght@700&display=swap');
-.activities-page {
-    text-align: center;
-    font-size: larger;
-    height: fit-content;
-    max-height: fit-content;
-  }
   
   .header-text{
     padding-left: 5%;
     padding-right: 5%;
     font-family: 'IBM Plex Sans';
     font-weight:600;
-  }
-
-  .header-text h1{
-    font-family: 'Source Serif Pro';
   }
 
   .practices-container {

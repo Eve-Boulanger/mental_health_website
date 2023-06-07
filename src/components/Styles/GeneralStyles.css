@@ -8,6 +8,10 @@
     color: #2644648C;
 }
 
+.green-title{
+    color: #4F8F66;
+}
+
 .title-text {
     font-size: 35px;
     font-weight: bold;
@@ -72,4 +76,8 @@
     padding: 1em 1em;
     text-align: center;
     border-radius: 1em;
+}
+
+.center-text {
+    text-align: center;
 }
