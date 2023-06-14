@@ -1,5 +1,5 @@
 import React from "react";
-import './css/EmergencyContacts.css'
+import '../../Styles/Resources.css'
 import '../../Styles/GeneralStyles.css'
 import thinking from '../../Images/thinking-man.jpg'
 import thinking2 from '../../Images/thinking-person.png'
@@ -14,7 +14,7 @@ export const EmergencyContacts = () => {
             <h2><span className="black-title title-text">Emergency</span><span className="blue-title title-text"> Support</span></h2>
             <p><span className="bold">Call 211 to be directed to the best resource for you!</span></p>
             <h2><span className="black-title title-text">Talk to Someone</span><span className="blue-title title-text"> in Waterloo</span></h2>
-            <ul className="list">
+            <ul>
                 <li>Supportive and Confidential Listening (519-745-1166)</li>
                     <li>Here 24/7: Addictions, Mental Health and Crisis Services (1-844-437-3247)</li>
                     <li>Good2Talk Support Line for Post-secondary Students (1-866-925-5454)</li>
@@ -22,7 +22,7 @@ export const EmergencyContacts = () => {
                     <li>Mental Health and Community Referral Information (519-744-5594)</li>
                 </ul>
             <h2><span className="black-title title-text">Navigate</span><span className="blue-title title-text"> To...</span></h2>
-            <div className = "navigateTo bold">
+            <div className = "bold navigateTo">
                 <a href="#suicidal-thoughts-info">Helping Someone With Suicidal Thoughts</a>
                 <a href="#panic-attack">Helping Someone Having a Panic Attack</a>
                 <a href="#anxiety-info">Helping Someone With Anxiety</a>

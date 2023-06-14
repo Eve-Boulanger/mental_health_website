@@ -31,6 +31,7 @@
 
 .wrapper {
     height: fit-content;
+    font-size: 20px;
 }
 
 .row {
@@ -45,11 +46,7 @@
     flex: 50%;
     height: fit-content;
     padding-top: 1em;
-}
-
-.column p {
     font-size: 1em;
-    font-weight: normal;
 }
 
 .bold{
@@ -58,11 +55,6 @@
 
 .underline {
     text-decoration: underline;
-}
-
-.list {
-    font-family: 'Source Serif Pro';
-    font-size: 1em;
 }
 
 .content-box {
