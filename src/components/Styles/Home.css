@@ -1,7 +1,7 @@
 @media screen {
 .header-image img {
     position: relative;
-    width: 20em;
+    width: 15em;
 }
 
 .donate-now img {
@@ -9,9 +9,8 @@
 }
 
 .donate-now button {
-    width: 20em;
+    width: 15em;
     background:#9CD7B1;
-    font-size: 1.5em;
 }
 
 }

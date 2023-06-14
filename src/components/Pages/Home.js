@@ -7,7 +7,7 @@ import donate from'../Pages/img/donate.png';
 
 export const Home = () => {
   return (
-    <div>
+    <div class="wrapper">
       <div class = "light-blue-background">
         <div class = "row">
           <div class = "column">
