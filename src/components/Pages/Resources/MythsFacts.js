@@ -3,7 +3,7 @@ import './css/MythsFacts.css';
 
 export const MythsFacts = () => {
     return(
-        <div className="thirdRow">
+        <div className="wrapper dark-blue-background">
             <div className="grid-container-mf">
                 <div className="grid-item-mf">
                     <div className="title-sec">

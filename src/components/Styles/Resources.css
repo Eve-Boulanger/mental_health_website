@@ -3,13 +3,8 @@
     width: 15em;
     height: auto;
     margin-left: 10em;
-    margin-top: 2em;
+    margin-bottom: 2em;
   }
-
-.navigateTo {
-  font-family: 'Source Serif Pro';
-  font-size: 1em;
-}
 
 .navigateTo a {
     color: black;
