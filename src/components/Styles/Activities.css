@@ -18,7 +18,7 @@
   }
 
   .practices-container {
-    background-color: #B8E6AE;
+    background-color: #76C893;
     justify-content: center;
     color: #4F8F66;
     padding-bottom: 3vh;
@@ -38,23 +38,54 @@
 
   .body{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: flex-start;
   }
   
-  .activities-card{
-    width: 30vw;
-    border-radius: 10px;
+  .top-row,
+  .middle-row,
+  .bottom-row{
+    display: flex;
+  }
+
+  .activities-card,
+  .activities-card-imgs{
+    flex: 1;
+    width: 50%;
+    border-radius: 0px;
     color: black;
-    background-color: #76C893;
+    background-color: white;
     font-family: 'Montserrat';
     font-size:large;
     padding: 1rem 1rem;
+    align-items: center;
+  }
+
+  .activities-card-imgs{
+    background-color: #76C893;
+  }
+
+
+  .activities-card::before {
+    content: "";
+    display: block;
+    padding-top: 20%;
+  }
+
+  .activities-card:nth-child(4) {
+    margin-left: auto;
+    margin-right: 0;
   }
   
   .activities-card h3{
     color: black;
     font-weight: bold;
     font-size: large;
+  }
+
+  .body2{
+    display: flex;
+    justify-content: center;
   }
 
   .meditation-container {
