@@ -1,7 +1,7 @@
 import React from "react";
 import useDonationForm from "./useDonationForm";
 
-import "./Styles/Donation.css";
+import "../Styles/Donation.css";
 
 // This is the donation form without Stripe API.
 // This file is a placeholder for until the donation form with Stripe API is developed (DonationFormStripe)

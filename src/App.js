@@ -9,11 +9,12 @@ import { Support } from "./components/Pages/Support";
 import { PaymentConfirmation } from "./components/Pages/PaymentConfirmation";
 import { ShopItems } from "./components/ShopItems";
 import { MyCart } from "./components/MyCart";
+import StripeContext from './components/Stripe/StripeContext';
 
 
 function App() {
   return (
-    <>
+    <StripeContext>
       <Router>
         <NavBar />
         <div className="pages">
@@ -28,7 +29,7 @@ function App() {
           </Switch>
         </div>
       </Router>
-    </>
+    </StripeContext>
   );
 }
 
