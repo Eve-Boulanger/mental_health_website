@@ -10,23 +10,23 @@ export const Home = () => {
     <div class="wrapper">
       <div class = "light-blue-background">
         <div class = "row">
-          <div class = "column">
+          <div class = "header-text-column">
             <h1><span class = "blue-title title-text">PRIORITIZE</span><span class = "black-title title-text"> MENTAL HEALTH.</span></h1> 
             <h1><span class = "blue-title title-text">BREAK THE</span><span class = "black-title title-text"> STIGMA.</span></h1>
             <h1><span class = "blue-title title-text">ASK FOR</span><span class = "black-title title-text"> HELP.</span></h1> 
             <h1><span class = "blue-title title-text">PROGRESS</span><span class = "black-title title-text"> OVER PERFECTION.</span></h1>
           </div>
-          <div class = "column">
+          <div class = "header-else-column">
             <div class = "header-image">
               <img src={brain} alt="brain exercise"/>
             </div>
           </div>
         </div>
         <div class = " dark-blue-background row">
-          <div class = "column">
+          <div class = "header-text-column">
             <p> Donate to support mental health research and help students in need. </p>
           </div>
-          <div class = "column">
+          <div class = "header-else-column">
             <div class = "donate-now">
               <Link to="/support">
                 <button class="bold">

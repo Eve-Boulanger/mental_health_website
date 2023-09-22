@@ -13,4 +13,18 @@
     background:#9CD7B1;
 }
 
+.header-text-column {
+    flex: 60%;
+    height: fit-content;
+    padding-top: 1em;
+    font-size: 1em;
+}
+
+.header-else-column{
+    flex: 30%;
+    height: fit-content;
+    padding-top: 0.5em;
+    font-size: 1em;
+}
+
 }
