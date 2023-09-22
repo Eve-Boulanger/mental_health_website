@@ -3,7 +3,7 @@ import { useState, useEffect} from "react";
 // This file ensures the functionality in DonationForm.js (donation form without Stripe API)
 // It should be discarded along with DonationForm.js, currently keeping while DonationFormStripe.js (donation form with Stripe API) is under construction
 
-const useDonationForm = (callback) => {
+/*const useDonationForm = (callback) => {
     const [values, setValues] = useState({
         firstName: "",
         lastName: "",
@@ -48,4 +48,4 @@ const useDonationForm = (callback) => {
     return {handleChange, values, handleSubmit};
 };
 
-export default useDonationForm;
+export default useDonationForm;*/

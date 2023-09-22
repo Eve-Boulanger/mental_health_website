@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import useDonationForm from "./useDonationForm";
 
 import "../Styles/Donation.css";
@@ -235,3 +235,5 @@ const DonationForm = ({submitDonation}) => {
 }
 
 export default DonationForm
+
+*/

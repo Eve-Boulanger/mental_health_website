@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 
 // This is the donation form with Stripe API.
@@ -30,4 +30,4 @@ export const DonationFormStripe = () => {
       <button>Pay</button>
     </form>
   );
-};
+}; */

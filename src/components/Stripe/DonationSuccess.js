@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 
 // This displays when a donation has been successfully processed.
 // It appears after the user has clicked 'DONATE'
@@ -12,4 +12,4 @@ const DonationSuccess = () => {
     )
 }
 
-export default DonationSuccess
+export default DonationSuccess */
