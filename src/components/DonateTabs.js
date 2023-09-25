@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import Donation from "./Donation";
+import Donation from "./Stripe/Donation";
 import ShopItems from "./ShopItems";
 
 import "./Styles/DonateTabs.css";
