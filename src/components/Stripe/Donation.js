@@ -25,6 +25,14 @@ function Donation() {
     async function handleToken(token, addresses) {
         const response = await axios.post('http://localhost:5000/checkout', {token,product})
         console.log(response.status)
+
+        if (response.status === 200)
+        {
+            toast("Success Payment is completed", {type:'success'})
+        }
+        else{
+            toast("Failure payment is not completed", {type:'error'})
+        }
     }
 
     return (
