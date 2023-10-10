@@ -1,46 +1,28 @@
 {
   "name": "mental_health_website",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@stripe/react-stripe-js": "^1.9.0",
-    "@stripe/stripe-js": "^1.54.1",
-    "axios": "^1.5.0",
-    "bootstrap": "^5.2.3",
-    "cra-template": "1.1.2",
-    "mdbreact": "^5.1.0",
-    "react": "^17.0.2",
-    "react-bootstrap": "^1.6.4",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.4.0",
-    "react-image-lightbox": "^5.1.4",
-    "react-scripts": "4.0.3",
-    "react-stripe-checkout": "^2.6.3",
-    "toastify": "^2.0.1",
-    "web-vitals": "^2.1.0"
-  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "proxy": "http://localhost:4242",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eve-Boulanger/mental_health_website.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eve-Boulanger/mental_health_website/issues"
+  },
+  "homepage": "http://localhost:3000/",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "stripe": "^13.9.0",
+    "uuid": "^9.0.1"
   }
 }
