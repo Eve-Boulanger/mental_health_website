@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Montserrat&family=Source+Serif+Pro:wght@700&display=swap');
+
+.launching-soon {
+  position: relative;
+}
+
+.launching-soon img {
+  width: 100%;
+  height: auto;
+}
+
+.launching-text {
+  position: absolute; /* Position text relative to the container */
+  width: 340px;
+  top: 32%; /* Align text vertically at the center */
+  left: 48%; /* Align text horizontally at the center */
+  transform: translate(-50%, -50%); /* Center text precisely */
+  text-align: center; /* Center-align text within the container */
+  color: white; /* Set text color */
+  font-family: 'Montserrat';
+}
+
+.launching-text h1 {
+  font-weight: bold;
+  font-size: 40pt;
+}
+
+.launching-text p {
+  font-size: 14pt;
+}

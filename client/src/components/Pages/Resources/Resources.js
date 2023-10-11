@@ -1,4 +1,5 @@
 import React from "react";
+import LaunchingSoonPlaceholder from './LaunchingSoonPlaceholder'
 import EmergencyContacts from './EmergencyContacts'
 import Statistics from './Statistics'
 import MythsFacts from "./MythsFacts"
@@ -10,6 +11,9 @@ import AnxietyInfo from './AnxietyInfo'
 export const Resources = () => {
   return (
     <div>
+      <LaunchingSoonPlaceholder />
+    </div>
+   /* <div>
       <EmergencyContacts />
       <MythsFacts />
       <SuicidalThoughtsInfo />
@@ -17,6 +21,6 @@ export const Resources = () => {
       <AnxietyInfo />
       <Statistics />
       <Articles />
-  </div>
+  </div>*/
   );
 };
