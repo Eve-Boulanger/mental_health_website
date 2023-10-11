@@ -2,9 +2,22 @@ import React from "react";
 import "../Styles/Activities.css";
 import { BsChevronCompactRight } from 'react-icons/bs'
 import plant_head from'../Images/plant_head.png';
+import launch_background from '../Images/launch_background.jpg'
+
+//Launching Soon Code
+
 
 export const Activities = () => {
   return (
+    <div className = "launching-soon">
+      <img src={launch_background} alt="Launch Background Photo"></img>
+      <div className = "launching-text">
+        <h1>LAUNCHING SOON</h1>
+        <p>In the meantime, checkout the Support page and the merchandise we are currently offering!</p>
+      </div>
+    </div>
+  /*
+  //UNCOMMENT WHEN DEVELOPMENT STARTS AGAIN
     <div className="activities-page">
       <div className="practices-container">
         <div className="header-text">
@@ -102,5 +115,6 @@ export const Activities = () => {
         </div>
       </div>
     </div>
+    */
   );
 };
