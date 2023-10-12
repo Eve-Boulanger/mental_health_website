@@ -45,9 +45,16 @@
         background-color: black;
     }
 
+    .carousel-control-prev.carousel-control-prev-icon::before,
+    .carousel-control-next.carousel-control-next-icon::before  {
+        content: "";
+    }
+    
+
     .checkoutButton button{
         position: relative;
-        margin-left: 30vw;
+        margin-left: 42%;
+        margin-top: 15px;
         padding-bottom: 2.5px;
         align-items: center;
         width: 180px;

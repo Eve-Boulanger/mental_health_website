@@ -22,20 +22,20 @@ function DonateTabs() {
                 className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
                 onClick={() => toggleTab(1)}
                 ><b>SHOP</b></div>
-                <div
+                {/*<div
                 className={toggleState === 2 ? "tabs active-tabs" : "tabs"}
                 onClick={() => toggleTab(2)}
-                ><b>DONATE</b></div>
+                ><b>DONATE</b></div>*/}
             </div>
 
             <div className="content-tabs">
                 <div className={toggleState === 1 ? "content active-content" : "content"}>
                     <ShopItems />
                 </div>
-                <div className={toggleState === 2 ? "content active-content" : "content"}>
+                {/*<div className={toggleState === 2 ? "content active-content" : "content"}>
                     <Donation />
-                </div>
-            </div>
+                </div>*/}
+            </div> 
         </div>
     );
 }

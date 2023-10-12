@@ -33,6 +33,7 @@ export const ShopItems = () => {
   }
 
   const listItemsToBuy = () => items.map((item) => (
+    
     <Card className="text-center box"  key={item.id}>
       <Carousel className="allPics" interval="100000000000000">
           <Carousel.Item>
@@ -61,11 +62,11 @@ export const ShopItems = () => {
 
   const checkoutPageDirection = () => (
     <div className = "checkoutButton">
-     <Link to= "/mycart">
-       <button>
-         CHECKOUT
-       </button>
-     </Link>
+     <form action="http://localhost:4242/create-checkout-session" method="POST">
+        <button type="submit">
+          Checkout
+        </button>
+      </form>
      </div>
   );
 

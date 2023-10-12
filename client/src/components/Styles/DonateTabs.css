@@ -33,7 +33,7 @@
 .tabs {
     padding: 15px;
     text-align: center;
-    width: 50%;
+    width: 100%;
     cursor: pointer;
     box-sizing: border-box;
     position: relative;
